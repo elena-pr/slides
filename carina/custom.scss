@@ -1,0 +1,161 @@
+/*-- scss:defaults --*/
+
+$link-color: #172c83;
+$background-color: #fffbfb;
+
+// fonts
+$font-family-sans-serif: "Garamond", "EB Garamond", "Palatino Linotype", "Book Antiqua", Palatino, serif !default;
+$font-family-monospace: "Courier New", Courier, monospace !default;
+
+// colours
+$body-bg: #ffffff !default;
+$body-color: #1c5253 !default;
+
+h1.title {
+  font-size: 70px;
+  border: 1;
+}
+h2.title {
+  font-size: 60px;
+}
+h3.title {
+  font-size: 50px;
+}
+h4.title {
+  font-size: 40px;
+}
+
+footer {
+  background-color: white; 
+  color: #172c83;
+  font-size: 14pt;
+  padding: 0.5em;
+}
+
+.csl-entry {
+  padding-bottom: 0.5em;
+}
+
+ol.aside-footnotes {
+  color: #172c83;
+  padding-top: 3em;
+  font-size: 14pt;
+}
+
+.reveal a {
+  color: #172c83;
+}
+
+div.cell-output cell-output-stdout {
+  height: 800px;
+}
+
+.reveal pre.sourceCode code {
+  max-height: 800px;
+}
+
+/*-- scss:rules --*/
+
+.picture {
+  border-style: solid;
+  border-width: 3pt;
+  border-color: $body-color;
+  border-radius: 50%;
+  padding: 5pt;
+  height: 50%;
+  width: auto;
+}
+
+.slide-logo {
+  display: block !important;
+  position: fixed !important;
+  top: 10 !important;
+  right: 50px !important;
+  max-height: 15% !important;
+  height: 100% !important;
+  width: auto !important;
+  color: $body-color !important;
+}
+
+#title-slide {
+  text-align: left;
+
+  .title, h1.title {
+    font-family: "Garamond", "EB Garamond", serif;
+    font-size: 60px;
+    font-weight: normal;
+  }
+
+  .subtitle,
+  .institute,
+  .quarto-title-affiliation,
+  .quarto-title-author-email {
+    color: #136f63;
+  }
+
+  .author, .quarto-title-author-name {
+    color: $body-color;
+  }
+
+  .quarto-title-authors {
+    display: flex;
+    justify-content: left;
+
+    .quarto-title-author {
+      padding-left: 0em;
+      padding-right: 0em;
+      width: 100%;
+    }
+  }
+
+  p.author::before, div.quarto-title-author::before {
+    content: "";
+    display: block;
+    border: none;
+    background-color: $body-color;
+    height: 3px;
+    margin-bottom: 1em;
+  }
+}
+
+/* Larger font for all content slides except the title slide */
+.reveal .slides section:not(#title-slide) {
+  font-size: 25px;
+}
+
+.reveal .slides section:not(#title-slide) p,
+.reveal .slides section:not(#title-slide) li,
+.reveal .slides section:not(#title-slide) ul,
+.reveal .slides section:not(#title-slide) ol,
+.reveal .slides section:not(#title-slide) code,
+.reveal .slides section:not(#title-slide) table,
+.reveal .slides section:not(#title-slide) blockquote {
+  font-size: 25px;
+}
+
+/* Optional: consistent heading sizes */
+.reveal .slides section:not(#title-slide) h1 {
+  font-size: 70px;
+}
+
+.reveal .slides section:not(#title-slide) h2 {
+  font-size: 60px;
+}
+
+.reveal .slides section:not(#title-slide) h3 {
+  font-size: 50px;
+}
+
+/* Add space between headings and slide body content */
+.reveal .slides section:not(#title-slide) h1,
+.reveal .slides section:not(#title-slide) h2,
+.reveal .slides section:not(#title-slide) h3 {
+  margin-bottom: 1em; // ← adjust as needed: try 1.5em or 2em for more space
+}
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+---
+title: "Discussion: The phaseout of electric vehicle subsidies in Germany"
+subtitle: ''
+author: Elena Pro
+institute: European Institute, London School of Economics
+format:
+  revealjs: 
+    fontsize: 1.5em
+    # logo: figures/LSE_logo.svg
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: none
+    caption: true
+    tabularx: true
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [simple, custom.scss]
+footer: <a></a>
+---
+
+## The Puzzle
+
+The consequence of the phaseout of electric vehicle subsidies in Germany on the competitiveness of the German automotive industry.
+
+<br />
+
+**Zooming out:**
+
+-   What is the relationship between competitiveness and decarbonisation?
+-   What are the factors/actors dictating this relationship? And, who is affected by this trade-off?
+
+## The Case
+
+You plan to use the exogenous shock of the phaseout of electric vehicle subsidies in Germany to study the impact of removing a decarbonisation policy on:
+
+- Consumer behaviour (sales)
+- Firms' behaviour (cars production and investment) 
+- Firms' market power (market shares)
+
+## General Comments
+
+**Strengths:**
+
+-   Timely and relevant --> topic and research design
+-   Data-driven: as you show in your figures there’s clearly *something going on*.
+-   Clear exogenous variation: allows you to identify potential effects.
+
+<br />
+
+**Weaknesses:**
+
+- Less clear theory or mechanism.
+
+- Almost too data driven: I am sure there is something going on but **HOW** and **WHY** is it happening?
+
+## Theory and Definitions
+
+-   Define your key terms:
+    -   What do you mean by **competitiveness**?
+    -   What do you mean by **decarbonisation**?
+-   Are these two  **mutually exclusive** or **complementary**?
+-   What is your **theoretical expectation** about their interaction?
+    + from one of the simulations it seems that competition, in a specific setting and under certain assumptions, could positively affect decarbonisation, but you seem to suggest the opposite.
+
+
+
+## Causal Questions
+
+-   What is the **causal mechanism**?
+-  Which one is X and which one is Y?
+-   Define a **clear causal question**
+-   Without it, it’s hard to choose an appropriate **research design**.
+
+```{mermaid}
+flowchart LR
+  A[Decarbonisation?] --> B(Competitiveness?)
+  B --> A
+
+```
+
+
+## Design
+
+- The research designs are all credible and feasible
+- Hard to pick a design if you don't have a clear question
+- For sure this shock has an effect on _something_, but:
+    + which _something_ do you care about and why?
+    + what does this effect mean?
+    + what is the mechanism behind it?
+
+## Linking to Empirics
+
+-   Tell a **story** with your data.
+    -   Why are you showing these figures? Use them to tell us your story 
+-  Tell us _your_ story. What do you think is going on?
+
+
+##  Relevance and Framing
+
+-   Why does this matter?
+-   What can we learn from this case (Germany/subsidies) that can help us understand decarbonisation and competitiveness at large
+- Leaving behind a crucial actor: **institutions** 
+    -   How do they shape the relationship between decarbonisation and competitiveness?
+    - They ultimately dictate the rules of the game and the priorities 
+        - --> compatitiveness >> decarbonisation?
+
+```{mermaid}
+flowchart LR
+  A{Institutions *Policy*} --> B(Firm Behaviour *Production and Investment*)
+  A --> C(Consumer Behaviour *Sales*)
+
+```
+
+
+# Thank you!
