@@ -1,0 +1,310 @@
+---
+title: "Artificial Intelligence, Personalized Persuasion, and Climate Attitudes"
+subtitle: ''
+author: "Elena Pro, António Valentim"
+institute: European Institute, London School of Economics and Political Science
+format:
+  revealjs: 
+    fontsize: 1.5em
+    # logo: figures/LSE_logo.svg
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: slide
+    caption: true
+    tabularx: true
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [simple, custom.scss]
+footer: <a></a>
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+
+## The Puzzle
+
+<div style="display: flex; justify-content: center; gap: 3rem;">
+
+  <figure style="margin: 0;">
+    <img src="figures/FoodCloud_Bear.jpg" alt="FoodCloud Bear" style="width: 100%; max-width: 350px;">
+  </figure>
+
+  <figure style="margin: 0;">
+    <img src="figures/local3-10.jpg" alt="Local Market" style="width: 100%; max-width: 300px;">
+  </figure>
+
+</div>
+
+
+## The Puzzle
+
+<div style="text-align: center;">
+  <img src="figures/Post_3_Carousel_Final_Slide_1 (1).jpg.webp" style="width: 55%;">
+</div>
+
+
+<!--- also countering misinformation -->
+
+## The Puzzle
+
+<figure>
+  <img align="center" 
+  src="figures/Screenshot 2025-04-01 at 15.24.22.png"
+  alt="Trulli" style="width:90%">
+</figure>
+
+## Is it working?
+
+```{=html}
+<div style="max-width: 600px; margin: auto;">
+
+  <div class="infogram-embed" data-id="57246704-b6e1-4f33-af0c-1dc5f452f387" data-type="interactive" data-title="F:IMF_Imminence and INFORM risk data" style="width: 100%; height: 400px;"></div>
+
+  <script>
+    !function(e,n,i,s){
+      var d="InfogramEmbeds";
+      var o=e.getElementsByTagName(n)[0];
+      if(window[d]&&window[d].initialized) window[d].process&&window[d].process();
+      else if(!e.getElementById(i)){
+        var r=e.createElement(n);
+        r.async=1; r.id=i; r.src=s;
+        o.parentNode.insertBefore(r,o);
+      }
+    }(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+  </script>
+
+  <div style="padding:8px 0;font-family:Arial; font-size:13px; line-height:15px; text-align:center; border-top:1px solid #dadada; margin:0 30px">
+    <a href="https://infogram.com/57246704-b6e1-4f33-af0c-1dc5f452f387" style="color:#989898; text-decoration:none;" target="_blank">
+      F:IMF_Imminence and INFORM risk data
+    </a><br>
+    <a href="https://infogram.com" style="color:#989898; text-decoration:none;" target="_blank" rel="nofollow">Infogram</a>
+  </div>
+
+</div>
+```
+
+
+    
+## Why do these messages don't work?
+
+- **The issue:**
+    + _Psychological distance_ and _intertemporal discounting_ reduce
+    climate urgency (Trope & Liberman, 2010).
+    + _Emotional disconnection_ from abstract risks (Weber, 2006).
+- **The solution:**
+    + Tailored messages increase engagement (Goldberg & Gustafson, 2025).
+
+
+<div style="text-align: center;">
+  <img src="figures/ChatGPT Image Apr 1, 2025, 04_35_37 PM.png" style="width: 40%;">
+</div>
+
+
+
+
+## Core Argument
+
+> AI can be a powerful tool for personalised persuasion in climate communication.
+
+
+## Why AI?
+
+-   AI can allow us to tailor messages to individuals (instead of broad demographic groups) on larger scale at lower cost
+    + Overcomes limits of static, fact-based interventions
+-  Evidence shows that LLMs can:
+    -   Influence deeply-held beliefs (Goel et al., 2024)
+    -   Counter conspiracy theories (Costello et al., 2024)
+    -   Adapt arguments to individual values
+
+
+## Hypotheses
+
+**H1:** When compared with the control condition (information provision), interacting with the LLM will have a positive effect on all outcomes of interest: a) climate concern, b) policy support c) pro-environmental behavior, d) conversation spillover, e) information-seeking behavior, and f) subjective climate beliefs.
+
+
+
+
+**H2:** The personalized LLM interaction will be more persuasive/effective than the non-personalized LLM interaction and of the basic information provision.
+
+
+
+## Study Design
+
+-   Survey experiment (UK, N = 1500–2000)
+-   Four treatment arms:
+    1.  Static/generic information provision
+    2.  Non-perosnalised AI interaction
+    3.  Personalised AI on unrelated topic
+    4.  Personalised AI on climate change
+    
+  
+
+## The Interaction Flow
+
+<div style="text-align: center;">
+  <img src="figures/ai_digram.png" alt="AI diagram" style="width: 60%;">
+</div>
+
+
+## An Example
+
+<div style="text-align: center;">
+  <img src="figures/Screenshot%202025-03-26%20at%2014.48.10.png" style="width: 55%;">
+</div>
+
+##
+
+<div style="text-align: center;">
+  <img src="figures/Screenshot%202025-03-26%20at%2014.48.36.png" style="width: 55%;">
+</div>
+
+
+
+##
+
+<div style="text-align: center;">
+  <img src="figures/Screenshot%202025-03-26%20at%2014.48.53.png" style="width: 55%;">
+</div>
+
+
+
+##
+
+<div style="text-align: center;">
+  <img src="figures/Screenshot%202025-03-26%20at%2014.49.05.png" style="width: 55%;">
+</div>
+
+
+
+
+## Outcomes & Analysis
+
+-   Pre/post comparison of attitudes
+-   Outcomes: Concern, behaviour, policy support - happy to talk more about them if needed :)
+-   Explore heterogeneity by demographics
+-   Robustness: 90% & 95% CIs; 
+-   Follow up survey to assess long-term effects
+
+
+## Behavioural Outcomes: Information-Seeking 
+
+```{=html}
+<div style="max-width: 600px; margin: auto; border: 1px solid #ccc; border-radius: 8px; padding: 1.5rem; background: #f9f9f9; font-family: sans-serif; text-align: center;">
+
+  <h3 style="color: #007f3b; margin-bottom: 1rem;">Thank you for completing the survey!</h3>
+
+  <p style="margin-bottom: 2rem;">Would you like to learn more about climate change and how to take action?</p>
+
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <button style="padding: 0.75rem 1.5rem; background-color: #007f3b; color: white; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      🌍 View Climate Resources
+    </button>
+
+    <button style="padding: 0.75rem 1.5rem; background-color: #ccc; color: #333; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      🚪 Exit Without More Info
+    </button>
+  </div>
+
+</div>
+```
+
+## Behavioural Outcomes: Political Spill-over 
+
+
+```{=html}
+<div style="max-width: 650px; margin: auto; border: 1px solid #ccc; border-radius: 8px; padding: 1.5rem; background: #fdfdfd; font-family: sans-serif;">
+
+  <h3 style="color: #007f3b; text-align: center;">Take Political Action</h3>
+  <p style="text-align: center;">Would you like to write a message to your local MP about climate change?</p>
+
+  <textarea placeholder="Type your message here..." style="width: 100%; height: 120px; padding: 0.75rem; margin-top: 1rem; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" disabled></textarea>
+
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <button style="padding: 0.75rem 1.5rem; background-color: #007f3b; color: white; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      ✉️ Send to Your MP
+    </button>
+
+    <button style="padding: 0.75rem 1.5rem; background-color: #ccc; color: #333; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      🚪 Exit Survey
+    </button>
+  </div>
+
+</div>
+```
+
+
+## Broader Impact
+
+
+**A powerful, cost-effective tool for climate campaigns:**
+
+- Climate organisations (e.g. *Greenpeace, Friends of the Earth*) can use AI-personalised messaging to:
+  - Enhance outreach
+  - Boost fundraising
+  - Mobilise volunteers
+  - Strengthen policy support
+
+
+
+**For climate communicators:**
+
+- Scientists, educators, and activists can:
+  - Craft emotionally resonant messages
+  - Counter misinformation
+  - Make climate science more accessible
+
+
+## Going Forward: Field Experiment
+
+<div style="text-align: center;">
+  <img src="figures/ChatGPT Image Apr 1, 2025, 04_06_54 PM.png" style="width: 50%;">
+</div>
+
+## Online Version
+
+```{=html}
+<div style="max-width: 700px; margin: auto; border: 1px solid #ccc; border-radius: 8px; padding: 1rem; background: #f5fdf5; font-family: sans-serif;">
+
+  <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+    <img src="figures/download.png" alt="Greenpeace Logo" style="height: 40px;">
+    <span style="font-weight: bold; color: #007f3b; font-size: 1.2rem;">Greenpeace AI 💬</span>
+  </div>
+
+  <div style="background: #f0f0f0; padding: 1rem; border-radius: 4px; height: 250px; overflow-y: auto; margin-bottom: 1rem;">
+    <div style="text-align: left; margin-bottom: 1rem; color: #333;">
+      <strong>AI:</strong> Hi! I'm Greenpeace AI. Ask me anything about climate change 🌍
+    </div>
+    <div style="text-align: right; margin-bottom: 1rem; color: #007f3b;">
+      <strong>You:</strong> What are the biggest threats to biodiversity?
+    </div>
+    <div style="text-align: left; color: #333;">
+      <strong>AI:</strong> Deforestation, pollution, and climate change are major threats. Let me explain...
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 0.5rem;">
+    <input type="text" placeholder="Type your question..." style="flex: 1; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;" disabled />
+    <button style="padding: 0.5rem 1rem; background-color: #007f3b; color: white; border: none; border-radius: 4px;" disabled>Send</button>
+  </div>
+
+</div>
+```
+
+## Contribution to Political Science
+
+-   Developing a tool for personalised climate communication at scale
+-  Evaluate its effectiveness compared to traditional informational strategies
+-   Exploring the role of AI in **shaping public opinion**
+
+
+
+
+## Thank You
+
+**Questions?**
+
+📧 e.pro\@lse.ac.uk
