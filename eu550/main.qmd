@@ -137,7 +137,7 @@ editor:
 -   Survey experiment (UK, N = 1500–2000)
 -   Four treatment arms:
     1.  Static/generic information provision
-    2.  Non-perosnalised AI interaction
+    2.  Non-personalised AI interaction
     3.  Personalised AI on unrelated topic
     4.  Personalised AI on climate change
     
