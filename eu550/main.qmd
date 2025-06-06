@@ -1,27 +1,19 @@
 ---
 title: "Artificial Intelligence, Personalized Persuasion, and Climate Attitudes"
-subtitle: ''
 author: "Elena Pro, António Valentim"
 institute: European Institute, London School of Economics and Political Science
 format:
   revealjs: 
     fontsize: 1.5em
-    # logo: figures/LSE_logo.svg
     embed-resources: true
     slide-number: true
-    preview-links: auto
     transition: slide
-    caption: true
-    tabularx: true
-    citation_package: biblatex
-    transition-speed: fast
     theme: [simple, custom.scss]
 footer: <a></a>
 editor: 
   markdown: 
     wrap: 72
 ---
-
 
 
 
@@ -108,7 +100,17 @@ editor:
 
 ## Core Argument
 
-> AI can be a powerful tool for personalised persuasion in climate communication.
+::: {.callout-tip icon=false}
+
+## Our Argument
+
+AI can be a powerful tool for personalised persuasion in climate communication
+
+:::
+
+
+
+
 
 
 ## Why AI?
