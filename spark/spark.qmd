@@ -1,0 +1,257 @@
+---
+title: "AI-Driven Climate Campaigns"
+author: "Elena Pro, António Valentim"
+institute: European Institute, London School of Economics
+format:
+  revealjs: 
+    fontsize: 1.5em
+    embed-resources: true
+    slide-number: true
+    transition: slide
+    theme: [simple, custom.scss]
+footer: <a></a>
+---
+
+## Has this ever happened to you?
+
+<div style="text-align: center;">
+  <img src="figures/ChatGPT Image Apr 1, 2025, 04_06_54 PM.png" style="width: 50%;">
+</div>
+
+## The Problem
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+```{=html}
+<div style="max-width: 600px; margin: auto;">
+
+  <div class="infogram-embed" data-id="57246704-b6e1-4f33-af0c-1dc5f452f387" data-type="interactive" data-title="F:IMF_Imminence and INFORM risk data" style="width: 100%; height: 400px;"></div>
+
+  <script>
+    !function(e,n,i,s){
+      var d="InfogramEmbeds";
+      var o=e.getElementsByTagName(n)[0];
+      if(window[d]&&window[d].initialized) window[d].process&&window[d].process();
+      else if(!e.getElementById(i)){
+        var r=e.createElement(n);
+        r.async=1; r.id=i; r.src=s;
+        o.parentNode.insertBefore(r,o);
+      }
+    }(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+  </script>
+
+  <div style="padding:8px 0;font-family:Arial; font-size:13px; line-height:15px; text-align:center; border-top:1px solid #dadada; margin:0 30px">
+    <a href="https://infogram.com/57246704-b6e1-4f33-af0c-1dc5f452f387" style="color:#989898; text-decoration:none;" target="_blank">
+      F:IMF_Imminence and INFORM risk data
+    </a><br>
+    <a href="https://infogram.com" style="color:#989898; text-decoration:none;" target="_blank" rel="nofollow">Infogram</a>
+  </div>
+
+</div>
+```
+
+<div style="width: 35%;">
+<div style="font-size: 3em; color: #007f3b; font-weight: bold;">80%</div>
+<div>care about climate change</div>
+<br>
+<div style="font-size: 2em; color: #cc0000;">BUT</div>
+<div>most of them don't do anything about it</div>
+</div>
+
+</div>
+
+## Our Solution
+
+```{=html}
+<div style="max-width: 700px; margin: auto; border: 2px solid #007f3b; border-radius: 12px; padding: 1.5rem; background: linear-gradient(135deg, #f5fdf5, #e8f5e8);">
+
+  <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #ccc;">
+    <div style="width: 40px; height: 40px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">AI</div>
+    <span style="font-size: 1.3em; font-weight: bold; color: #007f3b;">Climate Conversation Bot</span>
+  </div>
+
+  <div style="background: white; padding: 1rem; border-radius: 8px; height: 300px; overflow-y: auto; margin-bottom: 1rem; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);">
+    
+    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #f0f0f0; border-radius: 8px; max-width: 80%;">
+      <strong>AI:</strong> Hi! I see you care about the environment. What matters most to you - your children's future, energy costs, or something else?
+    </div>
+    
+    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #007f3b; color: white; border-radius: 8px; max-width: 70%; margin-left: auto; text-align: right;">
+      <strong>You:</strong> Honestly, I worry about my kids
+    </div>
+    
+    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #f0f0f0; border-radius: 8px; max-width: 80%;">
+      <strong>AI:</strong> I understand that parental concern. Let me share how climate action today protects the world your children will inherit...
+    </div>
+
+    <div style="padding: 0.75rem; background: #007f3b; color: white; border-radius: 8px; max-width: 60%; margin-left: auto; text-align: right;">
+      <strong>You:</strong> Tell me more
+    </div>
+
+  </div>
+
+  <div style="display: flex; gap: 0.5rem;">
+    <input type="text" placeholder="What would you like to know?" style="flex: 1; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; font-size: 1em;" disabled />
+    <button style="padding: 0.75rem 1.5rem; background-color: #007f3b; color: white; border: none; border-radius: 6px; font-weight: bold;" disabled>Send</button>
+  </div>
+
+</div>
+```
+
+## How It Works
+
+<div style="text-align: center;">
+
+```{=html}
+<div style="display: flex; justify-content: space-between; align-items: center; max-width: 800px; margin: auto;">
+
+  <div style="text-align: center;">
+    <div style="width: 80px; height: 80px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 1rem;">
+      <span style="color: white; font-size: 1.5em;">👥</span>
+    </div>
+    <div>Online Campaign</div>
+  </div>
+
+  <div style="font-size: 2em; color: #007f3b;">→</div>
+
+  <div style="text-align: center;">
+    <div style="width: 80px; height: 80px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 1rem;">
+      <span style="color: white; font-size: 1.5em;">🤖</span>
+    </div>
+    <div>AI learns their values</div>
+  </div>
+
+  <div style="font-size: 2em; color: #007f3b;">→</div>
+
+  <div style="text-align: center;">
+    <div style="width: 80px; height: 80px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 1rem;">
+      <span style="color: white; font-size: 1.5em;">💬</span>
+    </div>
+    <div>Personalized conversation</div>
+  </div>
+
+  <div style="font-size: 2em; color: #007f3b;">→</div>
+
+  <div style="text-align: center;">
+    <div style="width: 80px; height: 80px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 1rem;">
+      <span style="color: white; font-size: 1.5em;">✅</span>
+    </div>
+    <div>Action & engagement</div>
+  </div>
+
+</div>
+```
+ </div>
+
+## The Team
+
+
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 2rem;">
+
+<div style="text-align: center; width: 40%;">
+ <div style="width: 200px; height: 200px; border-radius: 50%; background: #f0f0f0; margin: auto; margin-bottom: 2rem; border: 4px solid #007f3b; overflow: hidden;">
+   <img src="figures/IMG_5140.jpeg"  alt="Elena Pro" style="width: 100%; height: 100%; object-fit: cover;">
+ </div>
+ <div style="font-size: 1.5em; font-weight: bold; color: #007f3b; margin-bottom: 0.5rem;">Elena Pro</div>
+ <div style="font-size: 1.1em; margin-bottom: 1rem; color: #666;">PhD Candidate, LSE European Institute</div>
+ <div style="font-size: 0.9em; line-height: 1.4;">
+   • Data Science & AI Development<br>
+   • Building the interface<br>
+   • Behavioral data analysis
+</div>
+</div>
+
+<div style="text-align: center; width: 40%;">
+ <div style="width: 200px; height: 200px; border-radius: 50%; background: #f0f0f0; margin: auto; margin-bottom: 2rem; border: 4px solid #007f3b; overflow: hidden;">
+   <img src="figures/download (2).jpeg" alt="António Valentim" style="width: 100%; height: 100%; object-fit: cover;">
+ </div>
+ <div style="font-size: 1.5em; font-weight: bold; color: #007f3b; margin-bottom: 0.5rem;">António Valentim</div>
+ <div style="font-size: 1.1em; margin-bottom: 1rem; color: #666;"> Assistant Professor, LSE European Institute</div>
+ <div style="font-size: 0.9em; line-height: 1.4;">
+   • Climate Communication Expert<br>
+   • Political Psychology Research<br>
+   • Public opinion & persuasion
+ </div>
+</div>
+
+</div>
+
+
+
+
+## Your £10,000 Will Fund
+
+<div style="display: flex; justify-content: space-around; margin-top: 2rem;">
+
+<div style="text-align: center; padding: 1.2rem; background: #f5fdf5; border-radius: 8px; width: 22%;">
+<div style="font-size: 2em; color: #007f3b;">🧪</div>
+<div style="font-weight: bold; margin: 0.8rem 0;">Run Experiment</div>
+<div style="font-size: 0.8em;">2,000-person trial<br>Measure effectiveness</div>
+</div>
+
+<div style="text-align: center; padding: 1.2rem; background: #f5fdf5; border-radius: 8px; width: 22%;">
+<div style="font-size: 2em; color: #007f3b;">⚙️</div>
+<div style="font-weight: bold; margin: 0.8rem 0;">Refine Interface</div>
+<div style="font-size: 0.8em;">Improve based on<br>user feedback</div>
+</div>
+
+<div style="text-align: center; padding: 1.2rem; background: #f5fdf5; border-radius: 8px; width: 22%;">
+<div style="font-size: 2em; color: #007f3b;">🤝</div>
+<div style="font-weight: bold; margin: 0.8rem 0;">Find Partners</div>
+<div style="font-size: 0.8em;">NGOs for field<br>experiments</div>
+</div>
+
+<div style="text-align: center; padding: 1.2rem; background: #f5fdf5; border-radius: 8px; width: 22%;">
+<div style="font-size: 2em; color: #007f3b;">✅</div>
+<div style="font-weight: bold; margin: 0.8rem 0;">Prove Concept</div>
+<div style="font-size: 0.8em;">Validate before<br>scaling up</div>
+</div>
+
+</div>
+
+## The Economics
+
+<div style="display: flex; justify-content: space-between; margin-top: 3rem;">
+
+<div style="width: 45%; text-align: center; padding: 2rem; background: #ffebee; border-radius: 8px;">
+<div style="font-size: 2.5em; color: #d32f2f;">£500</div>
+<div>Traditional targeting</div>
+<div style="font-size: 0.9em; margin-top: 0.5rem;">per 1,000 people</div>
+</div>
+
+<div style="width: 45%; text-align: center; padding: 2rem; background: #e8f5e8; border-radius: 8px;">
+<div style="font-size: 2.5em; color: #007f3b;">£35</div>
+<div>Our AI approach</div>
+<div style="font-size: 0.9em; margin-top: 0.5rem;">per 1,000 people</div>
+</div>
+
+</div>
+
+
+## From Flyers to Meaningful Conversations
+
+<div style="text-align: center; margin-top: 2rem;">
+ <img src="./figures/Network-No-Background.png" alt="Network visualization" style="width: 90%; max-width: 900px;">
+</div>
+
+```{=html}
+<div style="position: relative; text-align: center; margin-top: -400px;">
+<!-- LSE logo positioned over the central bubble -->
+<div style="width: 50px; height: 50px; background: #c8102e; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 0 15px rgba(200, 16, 46, 0.6); border: 2px solid white;">
+  <span style="color: white; font-size: 0.9em; font-weight: bold;">LSE</span>
+</div>
+</div>
+```
+
+## Appendix
+
+<div style="text-align: center;">
+  <img src="figures/ai_digram.png" alt="AI diagram" style="width: 60%;">
+</div>
+
+
+## An Example
+
+<div style="text-align: center;">
+  <img src="figures/survey_flow.png" alt="AI diagram" style="width: 45%;">
+</div>
