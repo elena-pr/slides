@@ -9,6 +9,8 @@ format:
     slide-number: true
     transition: slide
     theme: [simple, custom.scss]
+    title-slide-attributes:
+      data-background-color: "#004d40"
 footer: <a></a>
 ---
 
@@ -22,40 +24,16 @@ footer: <a></a>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
-```{=html}
-<div style="max-width: 600px; margin: auto;">
-
-  <div class="infogram-embed" data-id="57246704-b6e1-4f33-af0c-1dc5f452f387" data-type="interactive" data-title="F:IMF_Imminence and INFORM risk data" style="width: 100%; height: 400px;"></div>
-
-  <script>
-    !function(e,n,i,s){
-      var d="InfogramEmbeds";
-      var o=e.getElementsByTagName(n)[0];
-      if(window[d]&&window[d].initialized) window[d].process&&window[d].process();
-      else if(!e.getElementById(i)){
-        var r=e.createElement(n);
-        r.async=1; r.id=i; r.src=s;
-        o.parentNode.insertBefore(r,o);
-      }
-    }(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
-  </script>
-
-  <div style="padding:8px 0;font-family:Arial; font-size:13px; line-height:15px; text-align:center; border-top:1px solid #dadada; margin:0 30px">
-    <a href="https://infogram.com/57246704-b6e1-4f33-af0c-1dc5f452f387" style="color:#989898; text-decoration:none;" target="_blank">
-      F:IMF_Imminence and INFORM risk data
-    </a><br>
-    <a href="https://infogram.com" style="color:#989898; text-decoration:none;" target="_blank" rel="nofollow">Infogram</a>
-  </div>
-
+<div style="width: 90%;">
+<img src="figures/imf.png" alt="Climate change image" style="width: 100%; height: auto; border-radius: 8px;">
 </div>
-```
 
 <div style="width: 35%;">
 <div style="font-size: 3em; color: #007f3b; font-weight: bold;">80%</div>
 <div>care about climate change</div>
 <br>
 <div style="font-size: 2em; color: #cc0000;">BUT</div>
-<div>most of them don't do anything about it</div>
+<div> don't do anything about it</div>
 </div>
 
 </div>
@@ -98,50 +76,109 @@ footer: <a></a>
 </div>
 ```
 
-## How It Works
-
-<div style="text-align: center;">
+ 
+## How it Works?
 
 ```{=html}
-<div style="display: flex; justify-content: space-between; align-items: center; max-width: 800px; margin: auto;">
 
-  <div style="text-align: center;">
-    <div style="width: 80px; height: 80px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 1rem;">
-      <span style="color: white; font-size: 1.5em;">👥</span>
+<div style="display: flex; justify-content: space-between; gap: 1rem; margin-top: 1rem;">
+
+<!-- Social Media Campaign -->
+<div style="width: 48%; background: white; border-radius: 8px; padding: 1rem; border: 2px solid #007f3b;">
+  <h4 style="color: #007f3b; margin-bottom: 0.8rem; text-align: center; font-size: 1.1em;">Social Media</h4>
+  
+  <div style="background: #f8f9fa; border-radius: 6px; padding: 0.8rem; border: 1px solid #ddd;">
+    <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+      <div style="width: 30px; height: 30px; background: #00a651; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 0.5rem;">
+        <span style="color: white; font-weight: bold; font-size: 0.7em;">GP</span>
+      </div>
+      <div style="font-weight: bold; font-size: 0.8em;">Greenpeace UK</div>
     </div>
-    <div>Online Campaign</div>
-  </div>
-
-  <div style="font-size: 2em; color: #007f3b;">→</div>
-
-  <div style="text-align: center;">
-    <div style="width: 80px; height: 80px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 1rem;">
-      <span style="color: white; font-size: 1.5em;">🤖</span>
+    
+    <div style="font-size: 0.75em; margin-bottom: 0.8rem;">
+      💬 <strong>Curious about climate change?</strong><br>
+      Chat with our AI for 5 minutes
     </div>
-    <div>AI learns their values</div>
+    
+    <button style="width: 100%; padding: 0.5rem; background: #007f3b; color: white; border: none; border-radius: 4px; font-size: 0.8em; font-weight: bold;">
+      Start Climate Chat
+    </button>
   </div>
+</div>
 
-  <div style="font-size: 2em; color: #007f3b;">→</div>
-
-  <div style="text-align: center;">
-    <div style="width: 80px; height: 80px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 1rem;">
-      <span style="color: white; font-size: 1.5em;">💬</span>
+<!-- Newsletter Campaign -->
+<div style="width: 48%; background: white; border-radius: 8px; padding: 1rem; border: 2px solid #007f3b;">
+  <h4 style="color: #007f3b; margin-bottom: 0.8rem; text-align: center; font-size: 1.1em;">Newsletter</h4>
+  
+  <div style="background: #f8f9fa; border-radius: 6px; border: 1px solid #ddd; overflow: hidden;">
+    <div style="background: #00a651; color: white; padding: 0.5rem; text-align: center; font-size: 0.8em; font-weight: bold;">
+      Friends of the Earth Weekly
     </div>
-    <div>Personalized conversation</div>
-  </div>
-
-  <div style="font-size: 2em; color: #007f3b;">→</div>
-
-  <div style="text-align: center;">
-    <div style="width: 80px; height: 80px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 1rem;">
-      <span style="color: white; font-size: 1.5em;">✅</span>
+    
+    <div style="padding: 0.8rem;">
+      <div style="font-size: 0.7em; margin-bottom: 0.8rem;">
+        • UK announces new renewable energy targets<br>
+        • Local community wins against fracking proposal<br>
+        • New study shows impact of diet on carbon footprint
+      </div>
+      
+      <div style="background: #e8f5e8; border: 1px solid #007f3b; border-radius: 4px; padding: 0.8rem; text-align: center;">
+        <div style="font-size: 0.8em; font-weight: bold; color: #007f3b; margin-bottom: 0.3rem;">
+          🤖 Try Our Climate AI
+        </div>
+        <button style="padding: 0.4rem 1rem; background: #007f3b; color: white; border: none; border-radius: 4px; font-size: 0.7em; font-weight: bold;">
+          Start Chat
+        </button>
+      </div>
     </div>
-    <div>Action & engagement</div>
   </div>
+</div>
 
 </div>
+
+<!-- Simple Process Flow -->
+<div style="margin-top: 1.5rem; text-align: center;">
+  <div style="display: flex; justify-content: center; align-items: center; gap: 1.5rem;">
+    
+    <div style="text-align: center;">
+      <div style="width: 40px; height: 40px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 0.3rem;">
+        <span style="color: white; font-size: 1em;">👆</span>
+      </div>
+      <div style="font-size: 0.8em; font-weight: bold;">Click</div>
+    </div>
+
+    <div style="font-size: 1.2em; color: #007f3b;">→</div>
+
+    <div style="text-align: center;">
+      <div style="width: 40px; height: 40px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 0.3rem;">
+        <span style="color: white; font-size: 1em;">💭</span>
+      </div>
+      <div style="font-size: 0.8em; font-weight: bold;">Learn</div>
+    </div>
+
+    <div style="font-size: 1.2em; color: #007f3b;">→</div>
+
+    <div style="text-align: center;">
+      <div style="width: 40px; height: 40px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 0.3rem;">
+        <span style="color: white; font-size: 1em;">🎯</span>
+      </div>
+      <div style="font-size: 0.8em; font-weight: bold;">Tailor</div>
+    </div>
+
+    <div style="font-size: 1.2em; color: #007f3b;">→</div>
+
+    <div style="text-align: center;">
+      <div style="width: 40px; height: 40px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: auto; margin-bottom: 0.3rem;">
+        <span style="color: white; font-size: 1em;">✅</span>
+      </div>
+      <div style="font-size: 0.8em; font-weight: bold;">Act</div>
+    </div>
+
+  </div>
+</div>
+
 ```
- </div>
+
 
 ## The Team
 
@@ -168,9 +205,8 @@ footer: <a></a>
  <div style="font-size: 1.5em; font-weight: bold; color: #007f3b; margin-bottom: 0.5rem;">António Valentim</div>
  <div style="font-size: 1.1em; margin-bottom: 1rem; color: #666;"> Assistant Professor, LSE European Institute</div>
  <div style="font-size: 0.9em; line-height: 1.4;">
-   • Climate Communication Expert<br>
-   • Political Psychology Research<br>
-   • Public opinion & persuasion
+   • Climate Opinion Expert<br>
+   • Political Behavior Research<br>
  </div>
 </div>
 
@@ -209,7 +245,7 @@ footer: <a></a>
 
 </div>
 
-## The Economics
+## The Numbers
 
 <div style="display: flex; justify-content: space-between; margin-top: 3rem;">
 
@@ -228,20 +264,40 @@ footer: <a></a>
 </div>
 
 
-## From Flyers to Meaningful Conversations
+## Our Vision
 
-<div style="text-align: center; margin-top: 2rem;">
- <img src="./figures/Network-No-Background.png" alt="Network visualization" style="width: 90%; max-width: 900px;">
+<div style="text-align: center; margin-top: 4rem;">
+
+<div style="font-size: 2em; color: #666; margin-bottom: 1.5rem;">
+Instead of thousands of flyers...
 </div>
 
-```{=html}
-<div style="position: relative; text-align: center; margin-top: -400px;">
-<!-- LSE logo positioned over the central bubble -->
-<div style="width: 50px; height: 50px; background: #c8102e; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 0 15px rgba(200, 16, 46, 0.6); border: 2px solid white;">
-  <span style="color: white; font-size: 0.9em; font-weight: bold;">LSE</span>
+<div style="font-size: 2.8em; color: #007f3b; margin-bottom: 1.5rem; font-weight: bold;">
+Thousands of conversations
 </div>
+
+<div style="font-size: 2em; color: #666; margin-bottom: 1.5rem;">
+Instead of generic messages...
 </div>
-```
+
+<div style="font-size: 2.8em; color: #007f3b; margin-bottom: 1.5rem; font-weight: bold;">
+Personal connections
+</div>
+
+<div style="font-size: 2em; color: #666; margin-bottom: 1.5rem;">
+Instead of walking away...
+</div>
+
+
+<div style="font-size: 3.2em; color: #007f3b; font-weight: bold ;">
+Taking action
+</div>
+
+<div style="font-size: 4.5em; color: #007f3b; font-weight: bold ;">
+This is what we are building.
+</div>
+
+</div>
 
 ## Appendix
 
@@ -253,5 +309,5 @@ footer: <a></a>
 ## An Example
 
 <div style="text-align: center;">
-  <img src="figures/survey_flow.png" alt="AI diagram" style="width: 45%;">
+  <img src="figures/survey_flow.png" alt="AI diagram" style="width: 40%;">
 </div>

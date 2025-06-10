@@ -1,0 +1,27 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c c}
+\hline
+ & ITT Effect & 2SLS Optimal \\
+\hline
+(Intercept)         & $0.95^{*}$       &                  \\
+                    & $ [ 0.92; 0.98]$ &                  \\
+voting\_eligibility & $-0.02$          &                  \\
+                    & $ [-0.08; 0.03]$ &                  \\
+year\_cen           & $-0.00$          &                  \\
+                    & $ [-0.01; 0.01]$ &                  \\
+salient\_voting     &                  & $-0.02$          \\
+                    &                  & $ [-0.07; 0.02]$ \\
+\hline
+R$^2$               & $0.00$           & $0.07$           \\
+Adj. R$^2$          & $0.00$           & $0.06$           \\
+Num. obs.           & $6913$           & $5402$           \\
+RMSE                & $0.62$           & $0.60$           \\
+\hline
+\multicolumn{3}{l}{\scriptsize{$^*$ Null hypothesis value outside the confidence interval.}}
+\end{tabular}
+\caption{Effect of Voting Eligibility and Salient Voting on Party Identification: Cross-National Analysis Across Europe. The table presents results from a fuzzy regression discontinuity design examining how voting eligibility and participation in salient elections affect party identification strength in a cross-national analysis across European countries. Column 1 shows the intent-to-treat (ITT) effect of voting eligibility using OLS with country fixed effects and robust standard errors. Column 2 presents the two-stage least squares (2SLS) estimate using voting eligibility as an instrument for salient voting, estimated at the optimal bandwidth and including country fixed effects to control for unobserved country-level heterogeneity. Standard errors are robust (HC1) and 95\% confidence intervals are shown in brackets.}
+\label{table:main_results_pid}
+\end{center}
+\end{table}

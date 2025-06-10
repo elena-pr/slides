@@ -1,0 +1,399 @@
+---
+title: "From Booths to Beliefs: A Cognitive Dissonance Approach to Elections in Europe"
+author: "Elena Pro"
+institute: "European Institute, London School of Economics"
+date: "June 2025"
+date-format: "MMMM YYYY"
+format:
+  revealjs: 
+    fontsize: 1.5em
+    embed-resources: true
+    slide-number: true
+    transition: slide
+    theme: [simple, custom.scss]
+    title-slide-attributes:
+      data-background-color: "#004d40"
+footer: "<a></a>"
+---
+
+
+## The Year of Elections
+
+<div style="text-align: center;">
+  <img src="figures/elections.jpeg" style="width: 70%;">
+</div>
+
+
+
+## Participation and Democracy 1/2
+
+<div style="text-align: center;">
+  <img src="figures/democracy.jpg" style="width: 70%;">
+</div>
+
+
+## Participation and Democracy 2/2
+
+<div style="text-align: center;">
+  <img src="figures/screen.png" style="width: 50%;">
+</div>
+
+## Elections & Attitudes
+
+<p style="font-size: 1.5em; text-align: center;">
+  <strong>Voting</strong> [&#8594;]{.fragment} <em>Attitudes</em>
+</p>
+
+::: {.fragment}
+- Electoral participation is equivalent to behaviourally committing to a political team. This commitment has the power to enhance attachment towards the chosen political team and animus towards political opponents (Dinas 2014; Sorace and Hobolt 2021).
+:::
+
+
+
+## The Downstream Effects of Voting
+
+Growing evidence that voting affects citizens:
+
+- After voting for a party, voters tend to view that party more positively than before the election (Dinas 2014)  
+- It influences citizens' presidential candidates' ratings (Mullainathan and Washington 2009) 
+- First voting experiences have significant influence on future voting habits, vote choice, and turnout (Meredith 2009; Dinas 2014)  
+
+::: {.fragment}
+**But:** Evidence on desirable democratic outcomes is *mixed* — largely null effects on political knowledge, efficacy, and civic engagement (Holbein and Rangel 2020)
+:::
+
+::: {.fragment}
+Taken together, these findings might suggest that voting's primary downstream effects may not be on *positive civic virtues*, but rather on citizens' **emotional relationships with political groups**.
+:::
+
+---
+
+## How? A Theory of Cognitive Dissonance
+
+- Individuals experience mental discomfort when their behaviours are inconsistent with their beliefs (Festinger 1957).  
+- To alleviate this discomfort, they may adjust their preferences to better align with their actions.  
+- When individuals make a choice among a **limited set of alternatives**, they tend to develop a more favourable perception of their initially preferred option.  
+
+::: {.fragment}
+- How does this apply to elections?
+:::
+
+---
+
+## Can Elections Change Your Mind?
+
+Under a group theory perspective, voting is a declaration of allegiance to a political group which shapes how citizens view themselves and their opponents.
+
+**Evidence:**
+
+- After voting for a party, voters tend to view that party more positively than before the election.  
+- Citizens' levels of Partisan Identity (PID) become stronger among those who vote in alignment with a prior partisan leaning (Dinas 2014).  
+
+::: {.fragment}
+- **The Puzzle:** Does this mechanism also apply to animus towards political opponents?
+:::
+
+---
+
+## From Dissonance to *Coherence*
+
+Why first-time voters are crucial:
+
+- Political science recognises the profound impact of initial political experiences on long-term behaviour (Campbell et al. 1960)  
+- Cognitive dissonance in early voting experiences takes the form of *cognitive coherence*  
+- For young citizens, dissonance may be small because it emerges from non-existing or weakly crystallised attitudes  
+
+::: {.fragment}
+The nexus: 
+- The cost of changing their opinion is very low because they have no priors 
+- Making voting becomes more consequential, more sticky - filling this attitudinal void
+:::
+
+---
+
+## An Illustrative Example
+
+<div style="text-align: center;">
+  <img src="figures/image.png" style="width: 50%;">
+</div>
+
+---
+
+## What Are We Talking About?
+
+- **Polarisation:** partisan gap in ideology and policy preference.  
+  - In the US, Democrats adopting more extremely liberal positions and Republicans embracing more extremely conservative ones (Mason 2018).
+
+::: {.fragment}
+- **Affective Polarisation:** the acute tendency of partisans to view co-partisans positively and political opponents negatively.
+:::
+
+---
+
+## Us vs. Them
+
+**US** vs *THEM*?
+
+- The United States: partisan divisions between **Republicans** and *Democrats* (Mason 2018).
+
+<div style="text-align: center;">
+  <img src="figures/download.png" style="width: 70%;">
+</div>
+
+---
+
+## The Puzzle: Us vs. them, and them
+
+**US** vs *THEM*?
+
+- In multiparty systems, citizens might feel positively, or negatively, towards multiple parties at once (Reiljan 2020; Westwood et al. 2018; Wagner 2021).
+
+<div style="text-align: center;">
+  <img src="figures/italy.png" style="width: 50%;">
+</div>
+
+---
+
+## Empirical Strategy
+
+<p style="font-size: 1.5em; text-align: center;">
+  <strong>Voting</strong> ? <em>Attitudes</em>
+</p>
+
+:::{.fragment}
+
+<div style="text-align: center;">
+  <img src="figures/dag.png" style="width: 80%;">
+</div>
+:::
+
+---
+
+## How?
+
+<div style="text-align: center;">
+  <img src="figures/rd.png" style="width: 80%;">
+</div>
+
+
+## Expectations
+
+<div style="text-align: center;">
+  <img src="figures/exp.png" style="width: 80%;">
+</div>
+
+
+## Data 1/2
+**CSES (Wave 5): **
+
+- Cross-national comparison
+
+- *Running Variable:* Year of birth
+
+- *Treatment:* Voting in previous salient election
+
+- *Outcome:* Affective Polarisation and Partisanship 
+
+- *Estimation:* 2SLS (optimal bandwidth) and robust bias-corrected inference (Calonico, Cattaneo and Titiunik, 2014)
+
+
+## Data 2/2
+
+**UKHLS: **
+
+- Multiple Elections (2010, and 2019) and Party system transformation 
+
+- *Running Variable:* Month and year of birth
+
+- *Treatment:* Voting in current election
+
+- *Outcome:* Affective Polarisation (3 vs. 6 parties)
+
+- *Estimation:* 2SLS (optimal bandwidth) and robust bias-corrected inference 
+
+<div style="text-align: center;">
+  <img src="untitled folder/wave_timeline.png" style="width: 45%;">
+</div>
+
+## Results: CSES
+
+**Main Finding:** Voting in salient elections significantly increases affective polarization (both unweighted and weighted)
+
+**Effect size:** 0.19-point increase in affective polarization, only marginally significant at 0.10 level when estimated with optimal bandwidth
+
+
+<div style="text-align: center;">
+  <img src="untitled folder/bandwidth_effect_plot.png" style="width: 60%;">
+</div>
+
+
+## Results: CSES
+
+- No effect of **Partisanship**
+
+| | ITT Effect | 2SLS Optimal |
+|---|---|---|
+| **(Intercept)** | 0.95* | |
+| | [0.92; 0.98] | |
+| **voting_eligibility** | -0.02 | |
+| | [-0.08; 0.03] | |
+| **year_cen** | -0.00 | |
+| | [-0.01; 0.01] | |
+| **salient_voting** | | -0.02 |
+| | | [-0.07; 0.02] |
+| **Num. obs.** | 6913 | 5402 |
+
+: CSES. Effect of Voting Eligibility and Salient Voting on Party Identification: Cross-National Analysis Across Europe. {#tbl-cses-pid}
+
+## Results: UKHLS Wave 2
+
+Wave 2 (2010): Two-Party Dominance Era
+
+- **Context:** Labour vs. Conservative dominance (~90% of votes in 1950s, still strong in 2010)
+- **Results:** No significant effect of voting on affective polarization across all specifications
+
+<div style="text-align: center;">
+  <img src="untitled folder/wave2_bw_sensitivity_un.png" style="width: 60%;">
+</div>
+
+
+## Results: UKHLS Wave 11
+
+- Three-Party effects:
+
+| | RD (Sharp) | ITT Effect | RD (Fuzzy) | 2SLS |
+|---|---|---|---|---|
+| **Eligibility** | 0.501** (0.171) | 0.339* (0.136) | -- | -- |
+| **Voting** | -- | -- | 0.679** (0.238) | 0.421** (0.157) |
+| **N** | 1391 | 1391 | 1960 | 1960 |
+| **Bandwidth** | 5.79 | 5.79 | 9.10 | 9.10 |
+
+: Wave 11 (2019-2021): Effects of Voting Eligibility and Voting on Weighted Affective Polarisation 3-party measures {#tbl-wave11}
+
+##
+
+- Six-Party effects:
+
+| | RD (Sharp) | ITT Effect | RD (Fuzzy) | 2SLS |
+|---|---|---|---|---|
+| **Eligibility** | 0.342* (0.147) | 0.178 (0.114) | -- | -- |
+| **Voting** | -- | -- | 0.457* (0.208) | 0.299* (0.136) |
+| **N** | 1469 | 1469 | 2034 | 2034 |
+| **Bandwidth** | 5.99 | 5.99 | 9.09 | 9.09 |
+
+: Wave 11: Effects of Voting Eligibility and Voting on Affective Polarization (6-Party, Unweighted) {#tbl-wave11-6party-unweighted}
+
+| | RD (Sharp) | ITT Effect | RD (Fuzzy) | 2SLS |
+|---|---|---|---|---|
+| **Eligibility** | 0.498** (0.165) | 0.317* (0.131) | -- | -- |
+| **Voting** | -- | -- | 0.675** (0.228) | 0.410** (0.151) |
+| **N** | 1382 | 1382 | 1969 | 1969 |
+| **Bandwidth** | 5.74 | 5.74 | 9.14 | 9.14 |
+
+: Wave 11: Effects of Voting Eligibility and Voting on Affective Polarization (6-Party, Weighted) {#tbl-wave11-6party-weighted}
+
+
+## Results: UKHLS Wave 12
+
+- Three-Party effects:
+
+| | RD (Sharp) | ITT Effect | RD (Fuzzy) | 2SLS |
+|---|---|---|---|---|
+| **Eligibility** | 0.164 (0.119) | 0.245** (0.095) | -- | -- |
+| **Voting** | -- | -- | 0.287 (0.193) | 0.556*** (0.142) |
+| **N** | 2578 | 2578 | 2888 | 2888 |
+| **Bandwidth** | 6.19 | 6.19 | 7.17 | 7.17 |
+
+: Wave 12: Effects of Voting Eligibility on Affective Polarization (Unweighted) {#tbl-wave12-unweighted}
+
+##
+
+- Six-Party effects:
+
+| | RD (Sharp) | ITT Effect | RD (Fuzzy) | 2SLS |
+|---|---|---|---|---|
+| **Eligibility** | 0.066 (0.112) | 0.137 (0.091) | -- | -- |
+| **Voting** | -- | -- | 0.129 (0.185) | 0.355** (0.137) |
+| **N** | 2753 | 2753 | 3135 | 3135 |
+| **Bandwidth** | 6.11 | 6.11 | 7.29 | 7.29 |
+
+: Wave 12: Effects of Voting Eligibility on Affective Polarization (6-Party, Unweighted) {#tbl-wave12-6party-unweighted}
+
+| | RD (Sharp) | ITT Effect | RD (Fuzzy) | 2SLS |
+|---|---|---|---|---|
+| **Eligibility** | 0.154 (0.122) | 0.254* (0.100) | -- | -- |
+| **Voting** | -- | -- | 0.287 (0.196) | 0.589*** (0.144) |
+| **N** | 2462 | 2462 | 2873 | 2873 |
+| **Bandwidth** | 5.85 | 5.85 | 7.17 | 7.17 |
+
+: Wave 12: Effects of Voting Eligibility on Affective Polarization (6-Party, Weighted) {#tbl-wave12-6party-weighted}
+
+
+## Overall
+
+- Direction of the effect consistent across different datasets, estimations, and party configurations
+- Stable across bandwidth sensitivity tests
+- Pattern holds for both weighted and unweighted measures
+- Effects tend to be significant when there are more parties in the game
+
+## Discussion
+
+**Preliminary Takeaways:**
+
+- Behavioural commitment to a party might have the power to shape attitudes towards political opponents, but it does not necessarily make people feel closer to the chosen party.
+
+::: {.fragment}
+
+- It is possible that developing partisanship is a gradual, habitual process. In contrast, it requires less behavioural commitment to identify political opponents and foster negative feelings towards them.
+:::
+
+::: {.fragment}
+
+Context matters: Effects conditional on party system structure — voting seems to produce polarisation in multi-party contexts but not in simpler two-party systems.
+:::
+
+:::{.fragment}
+
+**Limitations:**
+
+- Respondents' evaluations of parties as a measure of affective polarisation.
+- Is this really about cognitive dissonance?
+:::
+
+
+## Going Forward
+
+**Refining the Estimation:**
+
+- Calculate ATT by dividing ITT by compliance rate using turnout data by age group
+- Panel setup: differences in affective polarisation levels before and after the election
+
+::: {.fragment}
+
+**Understanding Mechanisms:**
+
+- Examine consonant vs. dissonant voting patterns using panel data
+- Investigate cumulative effects of repeated voting experiences
+- Test whether voting for winning vs. losing party produces distinct outcomes
+
+:::
+
+:::{.fragment}
+**Institutional variation:**
+
+- Austria (voting age 16) and Brazil (compulsory 18-70, optional 16-17) and Germany (16-17 year-olds vote in municipal but not state/federal elections)
+
+- Compulsory voting contexts: Australia, Belgium, Brazil 
+
+:::
+
+##
+
+### Any Questions?
+
+
+<div style="text-align: center; font-size: 3em;">
+📧 [e.pro@lse.ac.uk](mailto:e.pro@lse.ac.uk) &nbsp;&nbsp;&nbsp;
+🐦 [@elenapro0](https://x.com/elenapro0) &nbsp;&nbsp;&nbsp;
+🌐 [www.elenapro.eu](http://www.elenapro.eu)
+</div>

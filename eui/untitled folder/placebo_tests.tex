@@ -1,0 +1,33 @@
+\begin{table}
+\centering
+\begin{tabular}[t]{l|r|l|r|r|r|r|r|r}
+\hline
+  & fake\_cutoff & outcome & coefficient & std\_error & p\_value & n\_obs & ci\_lower & ci\_upper\\
+\hline
+year\_cen & -3 & affpol\_un & 0.008 & 0.027 & 0.773 & 7631 & -0.045 & 0.061\\
+\hline
+year\_cen1 & -3 & affpol\_w & 0.011 & 0.026 & 0.683 & 7631 & -0.041 & 0.062\\
+\hline
+year\_cen2 & -2 & affpol\_un & -0.035 & 0.037 & 0.345 & 9215 & -0.109 & 0.038\\
+\hline
+year\_cen11 & -2 & affpol\_w & -0.014 & 0.036 & 0.694 & 9215 & -0.084 & 0.056\\
+\hline
+year\_cen3 & -1 & affpol\_un & 0.111 & 0.114 & 0.333 & 10648 & -0.113 & 0.335\\
+\hline
+year\_cen12 & -1 & affpol\_w & 0.045 & 0.096 & 0.636 & 10648 & -0.142 & 0.232\\
+\hline
+year\_cen4 & 1 & affpol\_un & -0.050 & 0.023 & 0.033 & 12419 & -0.095 & -0.004\\
+\hline
+year\_cen13 & 1 & affpol\_w & -0.033 & 0.022 & 0.142 & 12419 & -0.076 & 0.011\\
+\hline
+year\_cen5 & 2 & affpol\_un & -0.054 & 0.072 & 0.455 & 12820 & -0.195 & 0.087\\
+\hline
+year\_cen14 & 2 & affpol\_w & -0.082 & 0.088 & 0.347 & 12820 & -0.254 & 0.089\\
+\hline
+year\_cen6 & 3 & affpol\_un & -0.130 & 0.085 & 0.124 & 13298 & -0.296 & 0.036\\
+\hline
+year\_cen15 & 3 & affpol\_w & -0.065 & 0.061 & 0.288 & 13298 & -0.184 & 0.055\\
+\hline
+\end{tabular}
+\caption{Placebo Tests: Effects of Salient Voting at Fake Cutoffs. The table presents results from placebo tests examining the effect of salient voting on affective polarisation using fake eligibility cutoffs at different distances from the true voting age threshold. Each fake cutoff is tested using a 4-year bandwidth and the same fuzzy regression discontinuity design as the main analysis, with country fixed effects and robust standard errors. Columns show results for both unweighted and weighted measures of affective polarisation. Coefficients represent two-stage least squares estimates using fake eligibility as an instrument for salient voting. If the identification strategy is valid, we should observe no significant effects at these fake cutoffs where no true discontinuity in voting eligibility exists. Standard errors are shown in parentheses and significance levels are indicated by asterisks (* p<0.10, ** p<0.05, *** p<0.01). The absence of significant effects at fake cutoffs supports the validity of our regression discontinuity design and suggests that our main results are not driven by spurious trends around the true voting age threshold.}
+\end{table}

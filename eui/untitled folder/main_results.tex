@@ -1,0 +1,27 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c c}
+\hline
+ & ITT Effect & 2SLS Optimal \\
+\hline
+(Intercept)         & $2.17^{*}$       &                 \\
+                    & $ [ 2.13; 2.22]$ &                 \\
+voting\_eligibility & $0.02$           &                 \\
+                    & $ [-0.05; 0.09]$ &                 \\
+year\_cen           & $0.01$           &                 \\
+                    & $ [-0.00; 0.02]$ &                 \\
+salient\_voting     &                  & $0.19^{*}$      \\
+                    &                  & $ [0.10; 0.29]$ \\
+\hline
+R$^2$               & $0.00$           & $0.10$          \\
+Adj. R$^2$          & $0.00$           & $0.10$          \\
+Num. obs.           & $16073$          & $12498$         \\
+RMSE                & $1.27$           & $1.22$          \\
+\hline
+\multicolumn{3}{l}{\scriptsize{$^*$ Null hypothesis value outside the confidence interval.}}
+\end{tabular}
+\caption{Effect of Voting Eligibility and Salient Voting on Affective Polarisation. The table presents results from a fuzzy regression discontinuity design examining how voting eligibility and participation in salient elections affect affective polarisation. Column 1 shows the intent-to-treat (ITT) effect of voting eligibility using OLS with country fixed effects. Column 2 presents the two-stage least squares (2SLS) estimate using voting eligibility as an instrument for salient voting, estimated at the optimal bandwidth. The dependent variable is affective polarisation measured on a continuous scale. Standard errors are clustered at the country level and 95\% confidence intervals are shown in brackets. The models include country fixed effects}
+\label{table:main_results}
+\end{center}
+\end{table}

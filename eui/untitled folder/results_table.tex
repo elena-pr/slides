@@ -1,0 +1,21 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={+ p \num{< 0.1}, * p \num{< 0.05}, ** p \num{< 0.01}, *** p \num{< 0.001}},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]Q[]Q[]},
+column{2,3,4,5,6,7}={}{halign=c,},
+column{1}={}{halign=l,},
+hline{4}={1,2,3,4,5,6,7}{solid, black, 0.05em},
+}                     %% tabularray inner close
+\toprule
+& BW ±1 & BW ±2 & BW ±3 & BW ±4 & BW ±5 & BW ±6 \\ \midrule %% TinyTableHeader
+salient\_voting & \num{0.193} & \num{0.245}** & \num{0.198}** & \num{0.189}*** & \num{0.182}*** & \num{0.194}*** \\
+& (\num{0.143}) & (\num{0.089}) & (\num{0.068}) & (\num{0.056}) & (\num{0.052}) & (\num{0.049}) \\
+Num.Obs. & \num{3312} & \num{5567} & \num{7689} & \num{9687} & \num{11185} & \num{12498} \\
+R2 & \num{0.110} & \num{0.100} & \num{0.100} & \num{0.097} & \num{0.097} & \num{0.098} \\
+\bottomrule
+\end{talltblr}
+\end{table}
