@@ -42,7 +42,7 @@ Linden 2017).
 <div>care about climate change</div>
 <br>
 <div style="font-size: 2em; color: #cc0000;">BUT</div>
-<div> don't do anything about it</div>
+<div> does not mean that they do anything about it</div>
 </div>
 </div>
 
@@ -59,7 +59,7 @@ Linden 2017).
 People see why climate matters generally, but not why it matters *to them*
 :::
 
-## The solution:
+## The (partial) solution:
 
 - Tailored messaging aligned with individual beliefs and experiences is more effective
 
@@ -70,18 +70,27 @@ People see why climate matters generally, but not why it matters *to them*
   + ⟹ Hard to scale
 ::: 
 
+::: {.fragment}
+
+::: {.callout-tip .fragment title="The Question"}
+How can we deliver personalised messages at scale, cost-effectively, and in a way that engages people on a personal level?
+
+:::
+
+:::
 
     
-## AI as a Solution
+## Our Solution
+
+We argue that AI – and in particular its personalised content - could influence climate attitudes and overcome some of the limitations of pure information provision.
 
 <u>Key Advantages:</u>
 
 - From a *practical perspective*, AI can:
-    + **Scale**: Reach millions with personalised messages
+    + **Scale**: Reach thousands (but potentially millions) with personalised messages
     + **Cost-effective**: Reduce costs significantly
     + **Engage**: Create tailored conversations to the individual level
     
-<br>
 
 - From a *theoretical perspective*, AI can:
     + Evidence-based reasoning (Costello et al., 2025)
@@ -103,13 +112,12 @@ People see why climate matters generally, but not why it matters *to them*
 
 ## Research Design
 
-<u> Online Survey Experiment: </u> 
-
-- **Sample**
+- **Online Survey Experiment**
+- <u> Sample: </u>
   + N = 1,500-2,000 UK adults (representative sample)
-  + Recruited via established survey platform (Prolific)
+  + Recruited via established survey platform (Prolific) - the pipeline can be integrated into Qualtrics
   + Power analysis: 930 minimum for small-to-medium effect (d = 0.26-0.37)
-  + Context: UK offers valuable setting where climate skepticism is growing but not deeply entrenched
+  + Context: UK offers valuable setting where climate skepticism and polarisation is growing but not deeply entrenched
 
 ## The treatments
 
@@ -119,9 +127,9 @@ Participants are randomized into these conditions:
 
 2. **Non-Personalized AI:** Generic LLM conversation about climate change
 
-3. **Personalized AI (Unrelated Topic):** Personalised conversation about a political topic unrelated to climate change
+3. **Personalized AI (Unrelated Topic):** Personalised AI-driven conversation about a political topic unrelated to climate change
 
-4. **Personalized AI (Climate):** Personalised climate conversation about climate change:
+4. **Personalized AI (Climate):** Personalised AI-driven conversation about climate change:
 
 
 
@@ -141,44 +149,6 @@ Participants are randomized into these conditions:
 </div>
 
 
-## What this looks like?
-
-```{=html}
-<div style="max-width: 700px; margin: auto; border: 2px solid #007f3b; border-radius: 12px; padding: 1.5rem; background: linear-gradient(135deg, #f5fdf5, #e8f5e8);">
-
-  <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #ccc;">
-    <div style="width: 40px; height: 40px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">AI</div>
-    <span style="font-size: 1.3em; font-weight: bold; color: #007f3b;">Climate Conversation Bot</span>
-  </div>
-
-  <div style="background: white; padding: 1rem; border-radius: 8px; height: 300px; overflow-y: auto; margin-bottom: 1rem; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);">
-    
-    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #f0f0f0; border-radius: 8px; max-width: 80%;">
-      <strong>AI:</strong> Hi! I see you care about the environment. What matters most to you - your children's future, energy costs, or something else?
-    </div>
-    
-    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #007f3b; color: white; border-radius: 8px; max-width: 70%; margin-left: auto; text-align: right;">
-      <strong>You:</strong> Honestly, I worry about my kids
-    </div>
-    
-    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #f0f0f0; border-radius: 8px; max-width: 80%;">
-      <strong>AI:</strong> I understand that parental concern. Let me share how climate action today protects the world your children will inherit...
-    </div>
-
-    <div style="padding: 0.75rem; background: #007f3b; color: white; border-radius: 8px; max-width: 60%; margin-left: auto; text-align: right;">
-      <strong>You:</strong> Tell me more
-    </div>
-
-  </div>
-
-  <div style="display: flex; gap: 0.5rem;">
-    <input type="text" placeholder="What would you like to know?" style="flex: 1; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; font-size: 1em;" disabled />
-    <button style="padding: 0.75rem 1.5rem; background-color: #007f3b; color: white; border: none; border-radius: 6px; font-weight: bold;" disabled>Send</button>
-  </div>
-
-</div>
-```
-
 
 ## Outcome Variables
 
@@ -190,11 +160,35 @@ Participants are randomized into these conditions:
 
 
 ::: {.fragment}
-::: {.callout-tip title="Design Advantage"}
-**Pre-post measurement** enables both within-subject change detection and between-group comparisons
+::: {.callout-tip title="Timing and Analysis"}
+- **Pre-post measurement** enables both within-subject change detection and between-group comparisons (Change scores Δ = Post-treatment - Pre-treatment)
+- **Quantiative Text Analysis** of the conversations to unpack mechanisms
+- **Follow-up survey** to assess long-term effects
 :::
 :::
 
+## Political Spillover
+
+```{=html}
+<div style="max-width: 650px; margin: auto; border: 1px solid #ccc; border-radius: 8px; padding: 1.5rem; background: #fdfdfd; font-family: sans-serif;">
+
+  <h3 style="color: #007f3b; text-align: center;">Take Action !</h3>
+  <p style="text-align: center;">Would you like to write a message to your local MP about climate change?</p>
+
+  <textarea placeholder="Type your message here..." style="width: 100%; height: 120px; padding: 0.75rem; margin-top: 1rem; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" disabled></textarea>
+
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <button style="padding: 0.75rem 1.5rem; background-color: #007f3b; color: white; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      ✉️ Send to Your MP
+    </button>
+
+    <button style="padding: 0.75rem 1.5rem; background-color: #ccc; color: #333; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      🚪 Exit Survey
+    </button>
+  </div>
+
+</div>
+```
 
  
 ## Field Experiment Integration
@@ -259,9 +253,66 @@ Participants are randomized into these conditions:
 
 ```
 
+## Information Seeking
+
+```{=html}
+<div style="max-width: 600px; margin: auto; border: 1px solid #ccc; border-radius: 8px; padding: 1.5rem; background: #f9f9f9; font-family: sans-serif; text-align: center;">
+
+  <h3 style="color: #007f3b; margin-bottom: 1rem;">Thank you for completing the survey!</h3>
+
+  <p style="margin-bottom: 2rem;">Would you like to learn more about climate change and how to take action?</p>
+
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <button style="padding: 0.75rem 1.5rem; background-color: #007f3b; color: white; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      🌍 View Climate Resources
+    </button>
+
+    <button style="padding: 0.75rem 1.5rem; background-color: #ccc; color: #333; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      🚪 Exit Without More Info
+    </button>
+  </div>
+
+</div>
+```
+
+## Donations
+
+```{=html}
+<div style="max-width: 600px; margin: auto; border: 1px solid #ccc; border-radius: 8px; padding: 1.5rem; background: #f9f9f9; font-family: sans-serif; text-align: center;">
+
+  <h3 style="color: #007f3b; margin-bottom: 1rem;">Thank you for completing the survey!</h3>
+
+  <p style="margin-bottom: 2rem;">Would you like to make a donation to a climate NGO?</p>
+
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <button style="padding: 0.75rem 1.5rem; background-color: #007f3b; color: white; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      🌍 Make a Donation
+    </button>
+
+    <button style="padding: 0.75rem 1.5rem; background-color: #ccc; color: #333; border: none; border-radius: 4px; cursor: pointer;" disabled>
+      🚪 Exit Without More Info
+    </button>
+  </div>
+
+</div>
+```
 
 
-## The Numbers
+
+## Thank you!
+
+**Any Questions?**
+
+<div style="text-align: center; font-size: 3em;">
+📧 [e.pro@lse.ac.uk](mailto:e.pro@lse.ac.uk) &nbsp;&nbsp;&nbsp;
+🐦 [@elenapro0](https://x.com/elenapro0) &nbsp;&nbsp;&nbsp;
+🌐 [www.elenapro.eu](http://www.elenapro.eu)
+</div>
+
+
+## Appendix
+
+The Numbers:
 
 <div style="display: flex; justify-content: space-between; margin-top: 3rem;">
 
@@ -278,16 +329,4 @@ Participants are randomized into these conditions:
 </div>
 
 </div>
-
-## Thank you!
-
-**Any Questions?**
-
-<div style="text-align: center; font-size: 3em;">
-📧 [e.pro@lse.ac.uk](mailto:e.pro@lse.ac.uk) &nbsp;&nbsp;&nbsp;
-🐦 [@elenapro0](https://x.com/elenapro0) &nbsp;&nbsp;&nbsp;
-🌐 [www.elenapro.eu](http://www.elenapro.eu)
-</div>
-
-
 
