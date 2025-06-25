@@ -1,0 +1,293 @@
+---
+title: "Artificial Intelligence, Personalised Persuasion, and Climate Attitudes"
+author: "Elena Pro, António Valentim"
+institute: European Institute, London School of Economics
+format:
+  revealjs: 
+    fontsize: 1.5em
+    embed-resources: true
+    slide-number: true
+    transition: slide
+    theme: [simple, custom.scss]
+    title-slide-attributes:
+      data-background-color: "#004d40"
+footer: <a></a>
+---
+
+## Climate Information and Climate Concern
+
+- **The Problem:** Persuading people to care about and act toward climate
+change is still one of the major collective challenges we face as a society
+
+::: {.fragment}
+- Effective communication is crucial
+  - Over $15 million spent in science-based public information campaigns (United Nations 2025)
+:::
+
+::: {.fragment}
+- However, effects are small and short-lived (Deryugina and Shurchkov 2016; van der
+Linden 2017).
+:::
+
+## In Practice:
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="width: 90%;">
+<img src="figures/imf.png" alt="Climate change image" style="width: 100%; height: auto; border-radius: 8px;">
+</div>
+
+<div style="width: 35%;">
+<div style="font-size: 3em; color: #007f3b; font-weight: bold;">80%</div>
+<div>care about climate change</div>
+<br>
+<div style="font-size: 2em; color: #cc0000;">BUT</div>
+<div> don't do anything about it</div>
+</div>
+</div>
+
+
+## Why is this happening?
+
+- **The issue:** Traditional information campaigns often fail because they don't engage people personally
+    + _Psychological distance_ and _intertemporal discounting_ reduce
+    climate urgency (Trope & Liberman, 2010).
+    + _Emotional disconnection_ from abstract risks (Weber, 2006).
+
+
+::: {.callout-note .fragment title="The Problem"}
+People see why climate matters generally, but not why it matters *to them*
+:::
+
+## The solution:
+
+- Tailored messaging aligned with individual beliefs and experiences is more effective
+
+::: {.fragment}
+- But traditional targeting faces **critical limitations:**
+  + Operates at group level (demographics, ideology)
+  + Expensive
+  + ⟹ Hard to scale
+::: 
+
+
+    
+## AI as a Solution
+
+<u>Key Advantages:</u>
+
+- From a *practical perspective*, AI can:
+    + **Scale**: Reach millions with personalised messages
+    + **Cost-effective**: Reduce costs significantly
+    + **Engage**: Create tailored conversations to the individual level
+    
+<br>
+
+- From a *theoretical perspective*, AI can:
+    + Evidence-based reasoning (Costello et al., 2025)
+    + Non-judgmental interaction (Goel et al., 2024)
+    + Responsive dialogue (Santoro et al., 2024)
+    
+    
+## Hypotheses
+
+**H1:** When compared with the control condition (information provision), interacting with the LLM will have a positive effect on all outcomes of interest: a) climate concern, b) policy support, c) pro-environmental behavior, d) conversation spillover, e) political spillover, and f) subjective climate beliefs.
+
+<br>
+
+**H2:** The personalized LLM interaction on climate change will be more persuasive/effective than the non-personalized LLM interaction and the basic information provision on all outcomes of interest.
+
+<br>
+
+**H3:** The personalized LLM interaction on climate change condition will be more persuasive/effective compared to the personalized AI interaction on an unrelated political topic.
+
+## Research Design
+
+<u> Online Survey Experiment: </u> 
+
+- **Sample**
+  + N = 1,500-2,000 UK adults (representative sample)
+  + Recruited via established survey platform (Prolific)
+  + Power analysis: 930 minimum for small-to-medium effect (d = 0.26-0.37)
+  + Context: UK offers valuable setting where climate skepticism is growing but not deeply entrenched
+
+## The treatments
+
+Participants are randomized into these conditions: 
+
+1. **Control:** Standard information provision about climate change
+
+2. **Non-Personalized AI:** Generic LLM conversation about climate change
+
+3. **Personalized AI (Unrelated Topic):** Personalised conversation about a political topic unrelated to climate change
+
+4. **Personalized AI (Climate):** Personalised climate conversation about climate change:
+
+
+
+
+## Survey Flow
+
+<div style="text-align: center;">
+  <img src="figures/ai_digram.png" alt="AI diagram" style="width: 70%;">
+</div>
+
+
+## An Example
+
+
+<div style="text-align: center;">
+  <img src="figures/survey_flow.png" alt="AI diagram" style="width: 43%;">
+</div>
+
+
+## What this looks like?
+
+```{=html}
+<div style="max-width: 700px; margin: auto; border: 2px solid #007f3b; border-radius: 12px; padding: 1.5rem; background: linear-gradient(135deg, #f5fdf5, #e8f5e8);">
+
+  <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #ccc;">
+    <div style="width: 40px; height: 40px; background: #007f3b; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">AI</div>
+    <span style="font-size: 1.3em; font-weight: bold; color: #007f3b;">Climate Conversation Bot</span>
+  </div>
+
+  <div style="background: white; padding: 1rem; border-radius: 8px; height: 300px; overflow-y: auto; margin-bottom: 1rem; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);">
+    
+    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #f0f0f0; border-radius: 8px; max-width: 80%;">
+      <strong>AI:</strong> Hi! I see you care about the environment. What matters most to you - your children's future, energy costs, or something else?
+    </div>
+    
+    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #007f3b; color: white; border-radius: 8px; max-width: 70%; margin-left: auto; text-align: right;">
+      <strong>You:</strong> Honestly, I worry about my kids
+    </div>
+    
+    <div style="margin-bottom: 1rem; padding: 0.75rem; background: #f0f0f0; border-radius: 8px; max-width: 80%;">
+      <strong>AI:</strong> I understand that parental concern. Let me share how climate action today protects the world your children will inherit...
+    </div>
+
+    <div style="padding: 0.75rem; background: #007f3b; color: white; border-radius: 8px; max-width: 60%; margin-left: auto; text-align: right;">
+      <strong>You:</strong> Tell me more
+    </div>
+
+  </div>
+
+  <div style="display: flex; gap: 0.5rem;">
+    <input type="text" placeholder="What would you like to know?" style="flex: 1; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; font-size: 1em;" disabled />
+    <button style="padding: 0.75rem 1.5rem; background-color: #007f3b; color: white; border: none; border-radius: 6px; font-weight: bold;" disabled>Send</button>
+  </div>
+
+</div>
+```
+
+
+## Outcome Variables
+
+- **Climate concern:** 5-point scale from "Not at all concerned" to "Extremely concerned"
+- **Pro-environmental behavior:** Willingness to donate portion of $100 prize to climate NGO
+- **Conversation spillover:** Likelihood of discussing AI conversation with others
+- **Political spillover:** Choice to write message to Member of Parliament about climate change
+- **Subjective climate beliefs:** Open-ended question about personal beliefs on climate change + LLM-generated Likert scale
+
+
+::: {.fragment}
+::: {.callout-tip title="Design Advantage"}
+**Pre-post measurement** enables both within-subject change detection and between-group comparisons
+:::
+:::
+
+
+ 
+## Field Experiment Integration
+
+```{=html}
+
+<div style="display: flex; justify-content: space-between; gap: 1rem; margin-top: 1rem;">
+
+<!-- Social Media Campaign -->
+<div style="width: 48%; background: white; border-radius: 8px; padding: 1rem; border: 2px solid #007f3b;">
+  <h4 style="color: #007f3b; margin-bottom: 0.8rem; text-align: center; font-size: 1.1em;">Social Media</h4>
+  
+  <div style="background: #f8f9fa; border-radius: 6px; padding: 0.8rem; border: 1px solid #ddd;">
+    <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+      <div style="width: 30px; height: 30px; background: #00a651; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 0.5rem;">
+        <span style="color: white; font-weight: bold; font-size: 0.7em;">GP</span>
+      </div>
+      <div style="font-weight: bold; font-size: 0.8em;">Greenpeace UK</div>
+    </div>
+    
+    <div style="font-size: 0.75em; margin-bottom: 0.8rem;">
+      💬 <strong>Curious about climate change?</strong><br>
+      Chat with our AI for 5 minutes
+    </div>
+    
+    <button style="width: 100%; padding: 0.5rem; background: #007f3b; color: white; border: none; border-radius: 4px; font-size: 0.8em; font-weight: bold;">
+      Start Climate Chat
+    </button>
+  </div>
+</div>
+
+<!-- Newsletter Campaign -->
+<div style="width: 48%; background: white; border-radius: 8px; padding: 1rem; border: 2px solid #007f3b;">
+  <h4 style="color: #007f3b; margin-bottom: 0.8rem; text-align: center; font-size: 1.1em;">Newsletter</h4>
+  
+  <div style="background: #f8f9fa; border-radius: 6px; border: 1px solid #ddd; overflow: hidden;">
+    <div style="background: #00a651; color: white; padding: 0.5rem; text-align: center; font-size: 0.8em; font-weight: bold;">
+      Friends of the Earth Weekly
+    </div>
+    
+    <div style="padding: 0.8rem;">
+      <div style="font-size: 0.7em; margin-bottom: 0.8rem;">
+        • UK announces new renewable energy targets<br>
+        • Local community wins against fracking proposal<br>
+        • New study shows impact of diet on carbon footprint
+      </div>
+      
+      <div style="background: #e8f5e8; border: 1px solid #007f3b; border-radius: 4px; padding: 0.8rem; text-align: center;">
+        <div style="font-size: 0.8em; font-weight: bold; color: #007f3b; margin-bottom: 0.3rem;">
+          🤖 Try Our Climate AI
+        </div>
+        <button style="padding: 0.4rem 1rem; background: #007f3b; color: white; border: none; border-radius: 4px; font-size: 0.7em; font-weight: bold;">
+          Start Chat
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+```
+
+
+
+## The Numbers
+
+<div style="display: flex; justify-content: space-between; margin-top: 3rem;">
+
+<div style="width: 45%; text-align: center; padding: 2rem; background: #ffebee; border-radius: 8px;">
+<div style="font-size: 2.5em; color: #d32f2f;">£500</div>
+<div>Traditional targeting</div>
+<div style="font-size: 0.9em; margin-top: 0.5rem;">per 1,000 people</div>
+</div>
+
+<div style="width: 45%; text-align: center; padding: 2rem; background: #e8f5e8; border-radius: 8px;">
+<div style="font-size: 2.5em; color: #007f3b;">£35</div>
+<div>Our AI approach</div>
+<div style="font-size: 0.9em; margin-top: 0.5rem;">per 1,000 people</div>
+</div>
+
+</div>
+
+## Thank you!
+
+**Any Questions?**
+
+<div style="text-align: center; font-size: 3em;">
+📧 [e.pro@lse.ac.uk](mailto:e.pro@lse.ac.uk) &nbsp;&nbsp;&nbsp;
+🐦 [@elenapro0](https://x.com/elenapro0) &nbsp;&nbsp;&nbsp;
+🌐 [www.elenapro.eu](http://www.elenapro.eu)
+</div>
+
+
+

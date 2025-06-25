@@ -1,0 +1,174 @@
+/*-- scss:defaults --*/
+// Colors
+$link-color: #ff8811;
+$body-bg: #ffffff !default;
+$body-color: #000000 !default; // Changed to black for body text
+$background-color: #fffbfb;
+
+// Fonts
+$font-family-sans-serif: "Garamond", "EB Garamond", "Palatino Linotype", "Book Antiqua", Palatino, serif !default;
+$font-family-monospace: "Courier New", Courier, monospace !default;
+
+// Font Sizes
+$h1-size: 70px;
+$h2-size: 60px;
+$h3-size: 45px;
+$h4-size: 40px;
+$base-font-size: 25px;
+$footer-font-size: 14pt;
+$aside-font-size: 14pt;
+
+/*-- scss:rules --*/
+
+// Custom styling for bold and italic text
+strong {
+  color: #004d40; // Bold text color
+}
+
+em {
+  color: #3e2f5b; // Italic text color
+}
+
+// Title slide styles with white text (background is handled by YAML)
+#title-slide {
+  color: white !important; // White text as default
+  text-align: left;
+  
+  .title, h1.title {
+    font-family: $font-family-sans-serif;
+    font-size: $h2-size;
+    font-weight: normal;
+    color: white !important; // White title
+  }
+  
+  .subtitle,
+  .institute,
+  .quarto-title-affiliation,
+  .quarto-title-author-email {
+    color: white !important; // White subtitle and institute
+  }
+  
+  .author, .quarto-title-author-name {
+    color: white !important; // White author names
+  }
+  
+  .quarto-title-authors {
+    display: flex;
+    justify-content: left;
+    
+    .quarto-title-author {
+      padding: 0;
+      width: 100%;
+    }
+  }
+  
+  p.author::before, div.quarto-title-author::before {
+    content: "";
+    display: block;
+    background-color: white; // White line before author
+    height: 3px;
+    margin-bottom: 1em;
+  }
+}
+
+// Heading styles - Apply #004d40 color to all headings (except title slide)
+h1, h2, h3, h4, h5, h6,
+h1.title, h2.title, h3.title, h4.title {
+  color: #004d40;
+}
+
+// Override heading colors for title slide only
+.title-slide h1, .title-slide h2, .title-slide h3,
+#title-slide h1, #title-slide h2, #title-slide h3 {
+  color: white !important;
+}
+
+h1.title { font-size: $h1-size; }
+h2.title { font-size: $h2-size; }
+h3.title { font-size: $h3-size; }
+h4.title { font-size: $h4-size; }
+
+// Content slide font sizes and heading colors
+.reveal .slides section:not(#title-slide) {
+  font-size: $base-font-size;
+  
+  p, li, ul, ol, code, table, blockquote {
+    font-size: $base-font-size;
+    color: $body-color; // Ensure body text uses the body color
+  }
+  
+  h1, h2, h3, h4, h5, h6 { 
+    color: #004d40; // Explicitly set slide heading colors
+  }
+  
+  h1 { font-size: $h1-size; }
+  h2 { font-size: $h2-size; }
+  h3 { font-size: $h3-size; }
+  
+  h1, h2, h3 {
+    margin-bottom: 1em;
+  }
+}
+
+// Image and logo styling
+.picture {
+  border: 3pt solid #004d40; // Changed to use the teal color consistently
+  border-radius: 50%;
+  padding: 5pt;
+  height: 50%;
+  width: auto;
+}
+
+.slide-logo {
+  position: fixed;
+  top: 10px;
+  right: 50px;
+  max-height: 15%;
+  height: 100%;
+  width: auto;
+  color: #004d40; // Changed to use the teal color consistently
+  display: block;
+}
+
+// Footer
+footer {
+  background-color: white;
+  color: $link-color;
+  font-size: $footer-font-size;
+  padding: 0.5em;
+}
+
+// References and footnotes
+.csl-entry {
+  padding-bottom: 0.5em;
+}
+
+ol.aside-footnotes {
+  color: $link-color;
+  padding-top: 3em;
+  font-size: $aside-font-size;
+}
+
+// Code output containers
+.reveal pre.sourceCode code,
+div.cell-output.cell-output-stdout {
+  max-height: 800px;
+}
+
+// Links
+.reveal a {
+  color: $link-color;
+}
+
+// Callout boxes
+.callout-tip {
+  background-color: #fff; // Light background for tip
+  border-left: 6px solid #004d40; // Teal accent border
+  color: #004d40; // Teal text
+}
+
+.callout-tip .callout-header {
+  background-color: #004d40;
+  color: white; // Added white text for better contrast
+  font-weight: bold;
+}
