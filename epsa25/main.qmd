@@ -56,12 +56,12 @@ Linden 2017).
 
 
 ::: {.callout-note .fragment title="The Problem 1/2"}
-People see why climate matters generally, but not why it matters *to them*
+People see why climate change matters generally, but not why it matters *to them*
 :::
 
 ## The (partial) solution:
 
-- Tailored messaging aligned with individual beliefs and experiences is more effective
+- Tailored messaging aligned with individual beliefs and experiences is more effective  (Goldberg and Gustafson 2025).
 
 ::: {.fragment}
 - But traditional targeting faces **critical limitations:**
