@@ -49,7 +49,7 @@ Linden 2017).
 
 ## Why is this happening?
 
-- **The issue:** Traditional information campaigns often fail because they don't engage people personally
+- **The issue:** 
     + _Psychological distance_ and _intertemporal discounting_ reduce
     climate urgency (Trope & Liberman, 2010).
     + _Emotional disconnection_ from abstract risks (Weber, 2006).
