@@ -1,5 +1,5 @@
 ---
-title: "Artificial Intelligence, Personalised Persuasion, and Climate Attitudes"
+title: "Artificial Intelligence, Personalized Persuasion, and Climate Attitudes"
 author: "Elena Pro, António Valentim"
 institute: European Institute, London School of Economics
 format:
@@ -73,7 +73,7 @@ People see why climate matters generally, but not why it matters *to them*
 ::: {.fragment}
 
 ::: {.callout-tip .fragment title="The Problem 2/2"}
-How can we deliver personalised messages at scale, cost-effectively, and in a way that engages people on a personal level?
+How can we deliver personalized messages at scale, cost-effectively, and in a way that engages people on a personal level?
 
 :::
 
@@ -87,9 +87,8 @@ We argue that AI – and in particular its personalised content - could influenc
 <u>Key Advantages:</u>
 
 - From a *practical perspective*, AI can:
-    + **Scale**: Online implementation + individual-level personalisation
+    + **Scale**: Online implementation + individual-level personalization
     + **Cost-effective**: Reduce costs significantly
-    + **Engage**: Create tailored conversations to the individual level
     
 
 - From a *theoretical perspective*, AI can:
@@ -98,17 +97,6 @@ We argue that AI – and in particular its personalised content - could influenc
     + Responsive dialogue (Santoro et al., 2024)
     
     
-## Hypotheses
-
-**H1:** When compared with the control condition (information provision), interacting with the LLM will have a positive effect on all outcomes of interest: a) climate concern, b) policy support, c) pro-environmental behavior, d) conversation spillover, e) political spillover, and f) subjective climate beliefs.
-
-<br>
-
-**H2:** The personalized LLM interaction on climate change will be more persuasive/effective than the non-personalized LLM interaction and the basic information provision on all outcomes of interest.
-
-<br>
-
-**H3:** The personalized LLM interaction on climate change condition will be more persuasive/effective compared to the personalized AI interaction on an unrelated political topic.
 
 ## Research Design
 
@@ -118,7 +106,7 @@ We argue that AI – and in particular its personalised content - could influenc
   + N = 1,500-2,000 UK representative sample
     + Power analysis: 930 minimum for small-to-medium effect (d = 0.26-0.37)
   + Recruited via established survey platform (Prolific) - the pipeline can be integrated into Qualtrics
-  + Context: UK offers valuable setting where climate skepticism and polarisation is growing but not deeply entrenched
+  + Context: UK offers valuable setting where climate skepticism and polarization is growing but not deeply entrenched
 
 
 ## Survey Flow
@@ -133,15 +121,15 @@ Participants are randomized into these conditions:
 
 1. **Control:** Standard information provision about climate change
 
-2. **Non-Personalized AI:** Generic LLM conversation about climate change
+2. **Non-Personalized AI:** LLM conversation about climate change not tailored to the respondent
 
-3. **Personalized AI (Unrelated Topic):** Personalised AI-driven conversation about a political topic unrelated to climate change
+3. **Personalized AI (Unrelated Topic):** Personalized AI-driven conversation about a political topic unrelated to climate change
 
-4. **Personalized AI (Climate):** Personalised AI-driven conversation about climate change
+4. **Personalized AI (Climate):** Personalized AI-driven conversation about climate change
 
 ::: {.fragment}
 ::: {.callout-tip title="Treatments Explanation"}
-- Conditions **3** and **4** serve as placebos for each other to isolate the effect of personalisation
+- Conditions **3** and **4** serve as placebos for each other to isolate the effect of personalization
 specifically in the context of climate change.
 - Difference between personalized and non-personalized AI interactions is whether the AI
 is prompted to adapt its responses to the participant’s prior inputs (demographics, concerns, open-text answers).
@@ -342,8 +330,8 @@ The Numbers:
 
 ## Prompts
 
-- Climate Concern Personalised Measure:
+- Climate Concern Personalized Measure:
 `"Summarize the following passage, which describes attitudes towards climate change, in a single sentence. Do not provide any kind of normative judgment. Merely accurately describe the content in a way that the person who wrote the statement would concur with. Frame it as an assertion. If the statement is already short, no need to change it very much. If it is quite long and detailed, be sure to capture the core, high-level points.`
 
-- Climate Change Personalised Treatment
+- Climate Change Personalized Treatment
 `"Your goal is to very effectively persuade users that climate change is an urgent issue and action is now crucial. Further, we asked the user to provide an open-ended response about their perspective on this matter, which is piped in as the first user response. Please generate a response that will persuade the user that it is actually important to act now, based on their own reasoning. Again, your goal is to create a conversation that allows individuals to reflect on, and change, their beliefs. Use simple language that an average person will be able to understand."`
