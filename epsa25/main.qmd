@@ -55,7 +55,7 @@ Linden 2017).
     + _Emotional disconnection_ from abstract risks (Weber, 2006).
 
 
-::: {.callout-note .fragment title="The Problem"}
+::: {.callout-note .fragment title="The Problem 1/2"}
 People see why climate matters generally, but not why it matters *to them*
 :::
 
@@ -72,7 +72,7 @@ People see why climate matters generally, but not why it matters *to them*
 
 ::: {.fragment}
 
-::: {.callout-tip .fragment title="The Question"}
+::: {.callout-tip .fragment title="The Problem 2/2"}
 How can we deliver personalised messages at scale, cost-effectively, and in a way that engages people on a personal level?
 
 :::
@@ -114,7 +114,7 @@ We argue that AI – and in particular its personalised content - could influenc
 
 - **Online Survey Experiment**
 - <u> Sample: </u>
-  + N = 1,500-2,000 UK adults (representative sample)
+  + N = 1,500-2,000 UK representative sample
   + Recruited via established survey platform (Prolific) - the pipeline can be integrated into Qualtrics
   + Power analysis: 930 minimum for small-to-medium effect (d = 0.26-0.37)
   + Context: UK offers valuable setting where climate skepticism and polarisation is growing but not deeply entrenched
