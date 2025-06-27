@@ -42,7 +42,7 @@ Linden 2017).
 <div>care about climate change</div>
 <br>
 <div style="font-size: 2em; color: #cc0000;">BUT</div>
-<div> does not mean that they do anything about it</div>
+<div> don't always know how to address it </div>
 </div>
 </div>
 
@@ -82,8 +82,9 @@ How can we deliver personalized messages at scale, cost-effectively, and in a wa
     
 ## Our Solution
 
-We argue that AI – and in particular its personalised content - could influence climate attitudes and overcome some of the limitations of pure information provision.
+We argue that AI – and in particular its **personalised content** - could influence climate attitudes and overcome some of the limitations of pure information provision.
 
+::: {.fragment}
 <u>Key Advantages:</u>
 
 - From a *practical perspective*, AI can:
@@ -96,7 +97,7 @@ We argue that AI – and in particular its personalised content - could influenc
     + Non-judgmental interaction (Goel et al., 2024)
     + Responsive dialogue (Santoro et al., 2024)
     
-    
+:::    
 
 ## Research Design
 
