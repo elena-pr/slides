@@ -26,7 +26,7 @@ change is still one of the major collective challenges we face as a society
 
 ::: {.fragment}
 - However, effects are small and short-lived (Deryugina and Shurchkov 2016; van der
-Linden 2017).
+Linden 2017)
 :::
 
 ## In Practice:
@@ -52,16 +52,16 @@ Linden 2017).
 - **The issue:** 
     + _Psychological distance_ and _intertemporal discounting_ reduce
     climate urgency (Trope & Liberman, 2010).
-    + _Emotional disconnection_ from abstract risks (Weber, 2006).
+    + _Emotional disconnection_ from abstract risks (Weber, 2006)
 
 
 ::: {.callout-note .fragment title="The Problem 1/2"}
 People see why climate change matters generally, but not why it matters *to them*
 :::
 
-## The (partial) solution:
+## The (partial) Solution:
 
-- Tailored messaging aligned with individual beliefs and experiences is more effective  (Goldberg and Gustafson 2025).
+- Tailored messaging aligned with individual beliefs and experiences is more effective  (Goldberg and Gustafson 2025)
 
 ::: {.fragment}
 - But traditional targeting faces **critical limitations:**
@@ -82,7 +82,7 @@ How can we deliver personalized messages at scale, cost-effectively, and in a wa
     
 ## Our Solution
 
-We argue that AI – and in particular its **personalised content** - could influence climate attitudes and overcome some of the limitations of pure information provision.
+We argue that AI – and in particular its **personalized content** - could influence climate attitudes and overcome some of the limitations of pure information provision.
 
 ::: {.fragment}
 <u>Key Advantages:</u>
@@ -118,7 +118,7 @@ We argue that AI – and in particular its **personalised content** - could infl
 
 See detailed **prompts** in the appendix [Appendix](#detailed-prompts)
 
-## The treatments {#treatments}
+## The Treatments {#treatments}
 
 Participants are randomized into these conditions: 
 
@@ -126,7 +126,7 @@ Participants are randomized into these conditions:
 
 2. **Non-Personalized AI:** LLM conversation about climate change not tailored to the respondent
 
-3. **Personalized AI (Unrelated Topic):** Personalized AI-driven conversation about a political topic unrelated to climate change
+3. **Personalized AI (Unrelated Political Topic):** Personalized AI-driven conversation about a political topic unrelated to climate change
 
 4. **Personalized AI (Climate):** Personalized AI-driven conversation about climate change
 
@@ -134,9 +134,9 @@ Participants are randomized into these conditions:
 ::: {.fragment}
 ::: {.callout-tip title="Treatments Explanation"}
 - Conditions **3** and **4** serve as placebos for each other to isolate the effect of personalization
-specifically in the context of climate change.
+specifically in the context of climate change
 - Difference between personalized and non-personalized AI interactions is whether the AI
-is prompted to adapt its responses to the participant’s prior inputs (demographics, concerns, open-text answers).
+is prompted to adapt its responses to the participant’s prior inputs (demographics, concerns, open-text answers)
 :::
 :::
 
@@ -176,7 +176,7 @@ is prompted to adapt its responses to the participant’s prior inputs (demograp
 ```{=html}
 <div style="max-width: 650px; margin: auto; border: 1px solid #ccc; border-radius: 8px; padding: 1.5rem; background: #fdfdfd; font-family: sans-serif;">
 
-  <h3 style="color: #007f3b; text-align: center;">Take Action !</h3>
+  <h3 style="color: #007f3b; text-align: center;">Take Action!</h3>
   <p style="text-align: center;">Would you like to write a message to your local MP about climate change?</p>
 
   <textarea placeholder="Type your message here..." style="width: 100%; height: 120px; padding: 0.75rem; margin-top: 1rem; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" disabled></textarea>
@@ -210,7 +210,7 @@ is prompted to adapt its responses to the participant’s prior inputs (demograp
       <div style="width: 30px; height: 30px; background: #00a651; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 0.5rem;">
         <span style="color: white; font-weight: bold; font-size: 0.7em;">GA</span>
       </div>
-      <div style="font-weight: bold; font-size: 0.8em;">Green Alliance UK</div>
+      <div style="font-weight: bold; font-size: 0.8em;">Green Peace UK</div>
     </div>
     
     <div style="font-size: 0.75em; margin-bottom: 0.8rem;">
@@ -230,7 +230,7 @@ is prompted to adapt its responses to the participant’s prior inputs (demograp
   
   <div style="background: #f8f9fa; border-radius: 6px; border: 1px solid #ddd; overflow: hidden;">
     <div style="background: #00a651; color: white; padding: 0.5rem; text-align: center; font-size: 0.8em; font-weight: bold;">
-      Green Alliance Newsletter
+      Green Peace Newsletter
     </div>
     
     <div style="padding: 0.8rem;">
