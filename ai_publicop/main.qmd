@@ -124,19 +124,18 @@ Participants are randomized into these conditions:
 
 1. **Control:** Standard information provision about climate change
 
-2. **Non-Personalized AI:** LLM conversation about climate change not tailored to the respondent
+2. **Non-Personalized AI - Climate Change:** LLM conversation about climate change not tailored to the respondent
 
-3. **Personalized AI (Unrelated Political Topic):** Personalized AI-driven conversation about a political topic unrelated to climate change
+3. **Personalized AI - Unrelated Political Topic:** Personalized AI-driven conversation about a political topic unrelated to climate change
 
-4. **Personalized AI (Climate):** Personalized AI-driven conversation about climate change
+4. **Personalized AI - Climate Change:** Personalized AI-driven conversation about climate change
 
 
 ::: {.fragment}
 ::: {.callout-tip title="Treatments Explanation"}
 - Conditions **3** and **4** serve as placebos for each other to isolate the effect of personalization
 specifically in the context of climate change
-- Difference between personalized and non-personalized AI interactions is whether the AI
-is prompted to adapt its responses to the participant’s prior inputs (demographics, concerns, open-text answers)
+- Personalized vs. non-personalized AI interactions is whether the AI is prompted to adapt its responses to the participant’s prior inputs (demographics, concerns, open-text answers)
 :::
 :::
 
@@ -157,10 +156,10 @@ is prompted to adapt its responses to the participant’s prior inputs (demograp
 ## Outcome Variables
 
 - **Climate concern:** 5-point scale from "Not at all concerned" to "Extremely concerned"
-- **Pro-environmental behavior:** Willingness to donate portion of $100 prize to climate NGO
+- **Pro-environmental behavior:** Willingness to donate portion of £100 prize to climate NGO
 - **Conversation spillover:** Likelihood of discussing AI conversation with others
 - **Political spillover:** Choice to write message to Member of Parliament about climate change
-- **Subjective climate beliefs:** Open-ended question about personal beliefs on climate change + LLM-generated Likert scale
+- **Subjective climate beliefs:** Open-ended question about personal beliefs on climate change + LLM-generated 1-100 scale
 
 
 ::: {.fragment}
