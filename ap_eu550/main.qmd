@@ -1,0 +1,393 @@
+---
+title: "Local Institutions, Participation, and Trust"
+author: "Elena Pro"
+institute: European Institute, London School of Economics
+format:
+  revealjs: 
+    toc: true
+    toc-depth: 1
+    fontsize: 1.5em
+    embed-resources: true
+    slide-number: true
+    transition: slide
+    theme: [simple, custom.scss]
+    title-slide-attributes:
+      data-background-color: "#004d40"
+footer: <a></a>
+---
+
+## More civic enagement?
+
+<div style="position: relative; height: 600px;">
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/uk.png" alt="uk" style="width: 60%;">
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/france.png" alt="france" style="width: 60%;">
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center; margin-top: 20%;">
+**Ursula Von der Leyen:**
+ "European democracy must be more participative, more vibrant." (Statement at the European Parliament Plenary, July 2024)
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/comeback.jpeg" alt="comeback" style="width: 40%;">
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/macron.png" alt="macron" style="width: 60%;">
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/participatory.png" alt="participatory" style="width: 60%;">
+</div>
+:::
+
+::: {.fragment .fade-in style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/support.png" alt="support" style="width: 50%;">
+</div>
+:::
+
+</div>
+
+## The puzzle {data-transition="none"}
+
+<p style="font-size: 1.5em; text-align: center;">
+ <em>Attitudes</em> [&#8594;]{.fragment} <strong>Participation</strong> 
+</p>
+
+
+::: {.fragment}
+- The prevailing model in the study of participation and social capital assumes that attitudes drive ac-
+tions: citizens' levels of trust, efficacy, legitimacy beliefs, and attitudes towards political groups are
+seen as factors that determine whether and how they engage in civic life (Almond and Verba 1963; Verba and N. H. Nie 1987; Putnam, Leonardi, and Nonetti 1993).
+:::
+
+## The puzzle {data-transition="none"}
+
+<p style="font-size: 1.5em; text-align: center;">
+ <em>Attitudes</em> [&#8592;]{.fragment} <strong>Participation</strong> 
+</p>
+
+
+::: {.fragment}
+- Less is know, however, about the reverse mechanism:
+how civic actions themselves can shape attitudes toward institutions and political communities. 
+:::
+
+
+::: {.fragment}
+- The central methodological challenge lies in isolating participation’s causal effects: voluntary
+participation attracts those with strong prior convictions, making it difficult to determine whether
+participation transforms attitudes or simply reflects them. 
+:::
+
+::: {.fragment}
+::: {.callout-tip title="Questions:"}
+- What is the relationship between attitudes and participation? 
+- Does fostering participation have downstream effects on citizens' attitudes?
+:::
+:::
+
+## Theory
+
+
+Main debates about participation and attitudes:
+
+<div style="line-height: 2;">
+
+- Drivers of participation (Downs 1957; Verba and N. H. Nie 1987; Smit, 1994)
+- Consequences of participation (Converse 1969; Dinas 2014; De Kadt 2017; Meredith 2009; Holbein 2020)
+- The consequences of conscription (Bove, Di Leo, and Giani 2024; N. Zhang and Lee 2025, Ronconi and Ramos-Toro forthcoming)
+
+</div>
+
+
+
+## The "ideal" context
+
+Need to find a context where:
+
+- Participation is not driven by strong prior convictions (i.e., not voluntary).
+
+
+<div style="position: relative; height: 600px;">
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 10; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/con_wiki.png" alt="uk" style="width: 60%;">
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 10; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/hhwiki.png" alt="france" style="width: 60%;">
+</div>
+:::
+
+</div>
+
+## Compulsory Civil Service in Austria
+
+- Around 30 towns in Vorarlberg, Austria, have a compulsory civil service system in place.
+
+<div style="text-align: center;">
+  <img src="figures/vorarlberg_towns.png" alt="france" style="width: 60%;">
+</div>
+
+
+
+## Service Characteristics
+
+Today, the common features of this service across the region are:
+
+<div style="line-height: 2;">
+- Households with at least one member between 18 and 65 years old are required by law either to engage in compulsory community manual labour or pay a substitute tax.
+
+- Only one member per household has to provide the service (in the past, it used to be the head of the household).
+
+- It involves 1 to 3 days of manual labour each year.
+
+- The amount of the tax is adjusted to the number of days required and minimum wage.
+
+</div>
+
+## Data
+
+**Issue:**
+ 
+- No systematic data about this service
+
+**Solution:**
+
+- Contacted Wikipedia editors
+
+- Local journalists
+
+- Compiled a list of all the towns that still have the service with ChatGPT Deep Search function
+  - sent an email translated in German with DeepL
+  
+- Waited patiently for the responses...
+
+
+## Some hiccups on the way
+
+<div style="text-align: center;">
+  <img src="figures/mis1.png" alt="france" style="width: 70%;">
+</div>
+
+"Dear Mayor,
+
+..."
+
+
+<div style="text-align: center;">
+  <img src="figures/mis2.png" alt="france" style="width: 70%;">
+</div>
+
+"Dear Ms Pro,
+ 
+I am very honoured that you have promoted me to mayor, but I am ‘only’ the municipal secretary or head of the office!😉 Our mayor is on holiday this week and is therefore not in the office..."
+
+## The Research Design
+
+1. **Exploratory Phase**
+   - to understand what is going on and how the service works in practice.
+2. **Evaluation Phase**
+   - to estimate and isolate the effect of participating in the service on citizens' attitudes towards local institutions and political communities.
+3. **Explanatory Phase**
+   - to understand the mechanisms through which participation in the service shapes attitudes.
+   - to explore the decision-making process of participants and non-participants.
+
+
+## 1. The Exploratory Phase
+
+<div style="position: relative; height: 500px;">
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/view.jpg" alt="uk" style="width: 40%;">
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/gem.jpg" alt="france" style="width: 40%;">
+</div>
+:::
+
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/view2.jpg" alt="comeback" style="width: 40%;">
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/view3.jpg" alt="macron" style="width: 40%;">
+</div>
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/view4.jpg" alt="participatory" style="width: 40%;">
+</div>
+:::
+
+::: {.fragment .fade-in style="position: absolute; top: 0; left: 0; width: 100%;"}
+<div style="text-align: center;">
+  <img src="figures/view5.jpg" alt="support" style="width: 40%;">
+</div>
+:::
+
+</div>
+
+
+## The interviews
+
+- 32 municipalities contacted, 7 replied. 
+- The convenience sample resulted in 14 public officials, either the mayor, municipal employee or service organiser, and one citizen involved in the service.
+
+
+## Preliminary findings
+
+- Overview:
+  - Highly decentralised and trust-based: each municipality operates independently with flexible task assignment based on individual skills and proximity
+
+- Participation:
+  - Wide variation (2-70 participants per municipality); many pay exemption tax (€70-120) instead
+  - Low participation driven by information gaps, not unwillingness. residents
+  
+- Public Officials' Perspective:
+  - Officials view service as essential for cost-effective maintenance and community cohesion
+  - Coordination and recruitment challenges
+  
+  
+## 2. Evaluation Phase
+
+1. Encouragement to participation:
+  - **Control group:** Receives no information about the service. A generic link labelled “click to
+sign up” directs respondents to the standard municipal website.
+  - **Treatment group:** Receives information about the service. A link labelled “click to sign up” directs respondents to a streamlined, custom-designed registration interface.
+  
+2. Effect of "actual" participation on attitudes:
+ - Official municipal records to verify actual service enrolment
+and opt-out payments (first-stage outcome), whilst a follow-up survey one month post-service measures changes in institutional trust and political attitudes (second-stage outcome). 
+
+## What It Looks Like
+
+
+<div style="text-align: center;">
+  <img src="figures/survey.png" alt="interface" style="width: 40%;">
+</div>
+
+
+
+
+## Research Design Timeline
+
+<div style="display: flex; justify-content: center; align-items: center; height: 80%;">
+<div style="display: flex; justify-content: space-between; align-items: start; width: 110%;">
+
+<!-- Point 0 -->
+<div style="flex: 1; text-align: center; position: relative;">
+  <div style="width: 20px; height: 20px; background-color: #004d40; border-radius: 50%; margin: 0 auto 1em;"></div>
+  <div style="height: 3px; background-color: #004d40; position: absolute; left: 50%; right: -50%; top: 10px;"></div>
+  <h4>Letter</h4>
+  <p style="font-size: 0.7em;">
+    QR code invitation to survey
+  </p>
+</div>
+
+<!-- Point 1 -->
+<div style="flex: 1; text-align: center; position: relative;">
+  <div style="width: 20px; height: 20px; background-color: #004d40; border-radius: 50%; margin: 0 auto 1em;"></div>
+  <div style="height: 3px; background-color: #004d40; position: absolute; left: 50%; right: -50%; top: 10px;"></div>
+  <h4> Survey + Encouragement</h4>
+  <p style="font-size: 0.7em;">
+  Pre-treatment attitudes and demographics <br>
+    <strong>Control:</strong> Generic link<br>
+    <strong>Treatment:</strong> Info + Sign-up link
+  </p>
+</div>
+
+<!-- Point 2 -->
+<div style="flex: 1; text-align: center; position: relative;">
+  <div style="width: 20px; height: 20px; background-color: #004d40; border-radius: 50%; margin: 0 auto 1em;"></div>
+  <div style="height: 3px; background-color: #004d40; position: absolute; left: 50%; right: -50%; top: 10px;"></div>
+  <h4>Service Period</h4>
+  <p style="font-size: 0.7em;">
+    Verify enrolment via municipal records<br>
+    (1st stage)
+  </p>
+</div>
+
+<!-- Point 3 -->
+<div style="flex: 1; text-align: center;">
+  <div style="width: 20px; height: 20px; background-color: #004d40; border-radius: 50%; margin: 0 auto 1em;"></div>
+  <h4>Follow-up Survey</h4>
+  <p style="font-size: 0.7em;">
+    Measure attitude changes<br>
+    (2nd stage, +1 month)
+  </p>
+</div>
+
+</div>
+</div>
+
+
+## Outcomes of Interest
+
+- **Primary Outcomes:**
+<div style="line-height: 2;">
+  - Institutional trust (local government, public services, national and sovranational institutions)
+  - Community attachment (local, national, supranational identities)
+  - Civic duty (?)
+  - Social cohesion (?)
+  - Political efficacy (?)
+</div>
+
+## Thank you!
+
+<div style="text-align: center;">
+  <img src="figures/hh.jpg" alt="uk" style="width: 50%;">
+</div>
+
+
+<div style="text-align: center; font-size: 3em;">
+**Any Questions?**
+
+📧 [e.pro@lse.ac.uk](mailto:e.pro@lse.ac.uk) &nbsp;&nbsp;&nbsp;
+
+🦋 [@elenapro.bsky.social](https://bsky.app/profile/elenapro.bsky.social) &nbsp;&nbsp;&nbsp;
+
+🐦 [@elenapro0](https://x.com/elenapro0) &nbsp;&nbsp;&nbsp;
+
+
+🌐 [www.elenapro.eu](http://www.elenapro.eu)
+</div>
+
+
+## Appendix {#appendix}
+
+
+[Back to Our Solution](#solution)
+
+
+
