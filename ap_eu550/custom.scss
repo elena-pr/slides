@@ -189,6 +189,24 @@ div.cell-output.cell-output-stdout {
   font-weight: bold;
 }
 
+.callout-important {
+  background-color: #fff;
+  border-left: 6px solid #004d40;
+  color: #004d40;
+}
+
+.callout-important .callout-header {
+  background-color: #004d40;
+  color: white !important;
+  font-weight: bold;
+}
+
+// Override bold color inside callouts
+.callout-tip strong,
+.callout-important strong {
+  color: inherit;
+}
+
 .experiment-table {
   font-size: 0.45em;
   line-height: 1.1;

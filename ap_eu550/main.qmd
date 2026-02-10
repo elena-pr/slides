@@ -65,7 +65,19 @@ footer: <a></a>
 
 </div>
 
+## The puzzle
+
+
+<div style="display: flex; justify-content: center; align-items: center; height: 60%;">
+::: {.callout-important style="max-width: 80%;"}
+Beyond their functional/instrumental goals, we still do not know whether and how these forms of participation affect citizens' attitudes
+:::
+</div>
+
+
+
 ## The puzzle {data-transition="none"}
+
 
 <p style="font-size: 1.5em; text-align: center;">
  <em>Attitudes</em> [&#8594;]{.fragment} <strong>Participation</strong> 
@@ -73,8 +85,7 @@ footer: <a></a>
 
 
 ::: {.fragment}
-- The prevailing model in the study of participation and social capital assumes that attitudes drive ac-
-tions: citizens' levels of trust, efficacy, legitimacy beliefs, and attitudes towards political groups are
+- The prevailing model in the study of participation and social capital assumes that attitudes drive actions: citizens' levels of trust, efficacy, legitimacy beliefs, and attitudes towards political groups are
 seen as factors that determine whether and how they engage in civic life (Almond and Verba 1963; Verba and N. H. Nie 1987; Putnam, Leonardi, and Nonetti 1993).
 :::
 
@@ -92,9 +103,7 @@ how civic actions themselves can shape attitudes toward institutions and politic
 
 
 ::: {.fragment}
-- The central methodological challenge lies in isolating participation’s causal effects: voluntary
-participation attracts those with strong prior convictions, making it difficult to determine whether
-participation transforms attitudes or simply reflects them. 
+- Methodological challenge: isolating participation’s causal effects: voluntary participation attracts those with strong prior convictions, making it difficult to determine whether participation transforms attitudes or simply reflects them. 
 :::
 
 ::: {.fragment}
@@ -261,22 +270,22 @@ I am very honoured that you have promoted me to mayor, but I am ‘only’ the m
 
 ## The interviews
 
-- 32 municipalities contacted, 7 replied. 
-- The convenience sample resulted in 14 public officials, either the mayor, municipal employee or service organiser, and one citizen involved in the service.
+- 32 municipalities contacted, 12 replied, 7 agreed to an interview. 
+- The convenience sample resulted in 14 public officials: either the mayor, municipal employee or service organiser + one citizen involved in the service.
 
 
 ## Preliminary findings
 
 - Overview:
-  - Highly decentralised and trust-based: each municipality operates independently with flexible task assignment based on individual skills and proximity
+  - Highly decentralised and trust-based: each municipality operates independently with flexible task assignment based on individual skills and proximity.
 
 - Participation:
-  - Wide variation (2-70 participants per municipality); many pay exemption tax (€70-120) instead
-  - Low participation driven by information gaps, not unwillingness. residents
+  - Wide variation (2-70 participants per municipality); many pay exemption tax (€70-120) instead.
+  - Low participation driven by information gaps, not necessarily disenfranchisement.
   
 - Public Officials' Perspective:
-  - Officials view service as essential for cost-effective maintenance and community cohesion
-  - Coordination and recruitment challenges
+  - Officials view service as essential for cost-effective maintenance and community cohesion.
+  - Several coordination and recruitment challenges.
   
   
 ## 2. Evaluation Phase
